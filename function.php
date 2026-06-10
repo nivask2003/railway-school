@@ -24,7 +24,7 @@ function template_header(){
                     <nav class="navbar navbar-expand-lg navbar-light">
 
                         <!-- MOBILE LOGO (left) — hidden on desktop -->
-                        <a class="navbar-brand d-lg-none" href="#">
+                        <a class="navbar-brand d-lg-none" href="index.php">
                             <img src="Assets/Images/logo.webp"
                                  alt="Railway Higher Secondary School"
                                  class="mobile-nav-logo">
@@ -44,38 +44,41 @@ function template_header(){
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">About</a>
                                     <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                        <li><a class="dropdown-item" href="#">About Us</a></li>
-                                        <li><a class="dropdown-item" href="#">Trust &amp; Management</a></li>
-                                        <li><a class="dropdown-item" href="#">Principal Message</a></li>
-                                        <li><a class="dropdown-item" href="#">Administrative Officer Message</a></li>
-                                        <li><a class="dropdown-item" href="#">Academic Coordinator Message</a></li>
+                                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                                        <li><a class="dropdown-item" href="trust-management.php">Trust &amp; Management</a></li>
+                                        <li><a class="dropdown-item" href="principal-message.php">Principal Message</a></li>
+                                        <li><a class="dropdown-item" href="administrative-officer.php">Administrative Officer Message</a></li>
+                                        <li><a class="dropdown-item" href="academic-coordinator.php">Academic Coordinator Message</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Academics</a>
+                                    <a class="nav-link" href="academics.php">Academics</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Facilities</a>
+                                    <a class="nav-link" href="facilities.php">Facilities</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">Admission</a>
                                     <ul class="dropdown-menu" aria-labelledby="admissionDropdown">
-                                        <li><a class="dropdown-item" href="#">Admission Procedure</a></li>
-                                        <li><a class="dropdown-item" href="#">Admission Form</a></li>
+                                        <li><a class="dropdown-item" href="admission.php">Admission Procedure</a></li>
+                                        <li><a class="dropdown-item" href="admission-form.php">Admission Form</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gallery</a>
+                                    <a class="nav-link" href="career.php">Career</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="gallery.php">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div>
