@@ -13,3 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
         icon.classList.add("bi-list");
     });
 });
+
+
+function showImage(imageSrc){
+    document.getElementById('popupGalleryImage').src = imageSrc;
+}

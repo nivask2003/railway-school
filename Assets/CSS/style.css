@@ -47,7 +47,7 @@ span.badge {
 
 header img.img-fluid {
     width: 100%;
-    max-width: 1040px;
+    max-width: 816px;
     height: auto;
 }
 
@@ -928,7 +928,7 @@ ul.dropdown-menu.show li a {
 ul.dropdown-menu li a:hover {
     background-color: #072C4C !important;
     color: #fff;
-}   
+}
 
 .counter a.btn {
     background: #EC1D23;
@@ -954,7 +954,7 @@ ul.dropdown-menu li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .contact-page-banner h2.page-title {
@@ -972,8 +972,8 @@ ul.dropdown-menu li a:hover {
     transition: 0.3s ease-in-out;
 }
 
-.contact-1 .icon-box:hover{
-     box-shadow: 9px 7px 0px #C89B3C;
+.contact-1 .icon-box:hover {
+    box-shadow: 9px 7px 0px #C89B3C;
 }
 
 .contact-1 .icon-circle {
@@ -1034,11 +1034,11 @@ ul.dropdown-menu li a:hover {
 
 /* When the left column (form placeholder) is empty,
    push the map column to full width and center it */
-.contact-2 .row > .col-12.col-md-6:first-child:empty {
+.contact-2 .row>.col-12.col-md-6:first-child:empty {
     display: none;
 }
 
-.contact-2 .row > .col-12.col-md-6:first-child:empty ~ .col-12.col-md-6 {
+.contact-2 .row>.col-12.col-md-6:first-child:empty~.col-12.col-md-6 {
     flex: 0 0 100%;
     max-width: 100%;
 }
@@ -1086,15 +1086,236 @@ ul.dropdown-menu li a:hover {
     }
 }
 
-/* Gallery Page */
+/* ===========================
+   GALLERY PAGE
+=========================== */
 
-.gallery-page-banner{
-     display: flex;
+/* Banner — clamp height like the contact banner */
+.gallery-page-banner {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
     background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/gallery-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.gallery-page-banner h2.page-title {
+    font-size: clamp(24px, 4vw, 48px);
+    text-align: center;
+    padding: 0 16px;
+}
+
+/* Section title spacing */
+.gallery .section-title {
+    font-size: clamp(20px, 3vw, 42px);
+}
+
+/* Row gaps between image rows */
+.gallery .row {
+    row-gap: 24px;
+}
+
+/* ── Shared gallery-img styles (used in both .gallery and .gallery-2) ── */
+.gallery .gallery-img,
+.gallery-2 .gallery-img {
+    position: relative;
+}
+
+/* Fixed-aspect images so every card is the same height across zoom levels */
+.gallery img.img-fluid,
+.gallery-2 img.img-fluid {
+    border-radius: 20px;
+    width: 100%;
+    height: clamp(180px, 22vw, 320px);
+    object-fit: cover;
+    display: block;
+}
+
+/* Hover shimmer overlay */
+.gallery .gallery-img::before,
+.gallery-2 .gallery-img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #c89b3c59;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    top: 0;
+    left: 13px;
+}
+
+.gallery .gallery-img:hover::before,
+.gallery-2 .gallery-img:hover::before {
+    width: 94%;
+}
+
+/* Icon-circle overlay */
+.gallery .gallery-img .overlay,
+.gallery-2 .gallery-img .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.gallery .gallery-img:hover .overlay,
+.gallery-2 .gallery-img:hover .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .gallery-img .overlay .icon-circle,
+.gallery-2 .gallery-img .overlay .icon-circle {
+    background-color: #fff;
+    width: clamp(48px, 5vw, 64px);
+    height: clamp(48px, 5vw, 64px);
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery .gallery-img .overlay .icon-circle:hover,
+.gallery-2 .gallery-img .overlay .icon-circle:hover{
+    translate: scale(2px);
+}
+
+.gallery .gallery-img .overlay .icon-circle i,
+.gallery-2 .gallery-img .overlay .icon-circle i {
+    font-size: clamp(20px, 2.5vw, 28px);
+    color: #C89B3C;
+}
+
+/* ── Modal ── */
+.railway-gallery-modal {
+    background: transparent;
+    border: none;
+}
+
+.railway-gallery-modal img {
+    border-radius: 20px;
+    max-height: 85vh;
+    object-fit: contain;
+    width: 100%;
+}
+
+.railway-close-btn {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 999;
+    background: #fff !important;
+    border-radius: 50%;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+#galleryModal {
+    backdrop-filter: blur(5px);
+}
+
+/* ── Gallery responsive breakpoints ── */
+
+/* Tablets (≤991px) */
+@media (max-width: 991px) {
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: clamp(160px, 28vw, 260px);
+    }
+}
+
+/* Mobile landscape / large phones (≤767px) */
+@media (max-width: 767px) {
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: clamp(180px, 55vw, 280px);
+    }
+
+    /* 2-col grid on mid-size mobile */
+    .gallery .col-12.col-md-4.col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .railway-close-btn {
+        right: 4px;
+        top: 4px;
+    }
+}
+
+/* Small phones (≤575px) */
+@media (max-width: 575px) {
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: clamp(160px, 60vw, 240px);
+    }
+
+    /* Single-column on small phones */
+    .gallery .col-12.col-md-4.col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .gallery .row {
+        row-gap: 16px;
+    }
+
+    .gallery-page-banner {
+        min-height: 120px;
+    }
+
+    .railway-gallery-modal img {
+        max-height: 75vh;
+        border-radius: 12px;
+    }
+}
+
+/* Very small phones (≤360px) */
+@media (max-width: 360px) {
+    .gallery-page-banner {
+        min-height: 110px;
+    }
+
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: 180px;
+    }
+}
+
+/* Zoom-out safety (≥1400px) — keep images from stretching too tall */
+@media (min-width: 1400px) {
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: clamp(260px, 18vw, 340px);
+    }
+}
+
+/* Very wide / extreme zoom-out (≥1800px) */
+@media (min-width: 1800px) {
+    .gallery img.img-fluid,
+    .gallery-2 img.img-fluid {
+        height: 340px;
+    }
+}
+
+.gallery:nth-child(even){
+    background-color: #072c4c1f;
 }
