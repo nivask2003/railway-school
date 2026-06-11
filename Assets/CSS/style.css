@@ -928,22 +928,20 @@ ul.dropdown-menu.show li a {
 ul.dropdown-menu li a:hover {
     background-color: #072C4C !important;
     color: #fff;
+}   
+
+.counter a.btn {
+    background: #EC1D23;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
 
-.counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
+.counter a.btn:hover {
+    background-color: #072C4C;
 }
 
-/* .counter img.img-fluid.counter-img {
-    width: 900px;
-} */
-
-.home-3 {
-    padding-bottom: 0 !important;
-}
 
 /* Contact Page */
 
@@ -1086,4 +1084,17 @@ ul.dropdown-menu li a:hover {
     .contact-map {
         height: 220px;
     }
+}
+
+/* Gallery Page */
+
+.gallery-page-banner{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/gallery-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -94,9 +94,21 @@
         <img src="Assets/Images/about-bg.jpeg" alt="" class="img-fluid">
     </div>
    </section>
-   <section class="counter container">
-        <img src="Assets/Images/counter.webp" alt="" class="img-fluid counter-img">
-    </section>
+   <section class="counter py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+                <span class="badge">Our Impact</span>
+                <h2 class="section-title">Excellence, Growth & Achievement</h2>
+                <p class="section-desc">From academic achievements to holistic growth, our milestones reflect a commitment to shaping confident and responsible future leaders.</p>
+                <a href="about.php" class="btn">More About Us</a>
+            </div>
+            <div class="col-12 col-md-8 col-lg-8">
+                <img src="Assets/Images/counter.webp" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+   </section>
 
    <section class="home-4 py-5">
     <div class="container">

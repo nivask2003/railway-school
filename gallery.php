@@ -23,7 +23,7 @@
 <body>
     <?=template_header()?>
     <section class="gallery-page-banner">
-        <h2 class="page-title">Gallery</h2>
+        <h2 class="page-title text-white">Gallery</h2>
     </section>
    
     
