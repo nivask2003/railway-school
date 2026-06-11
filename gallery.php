@@ -22,6 +22,9 @@
 </head>
 <body>
     <?=template_header()?>
+    <section class="gallery-page-banner">
+        <h2 class="page-title">Gallery</h2>
+    </section>
    
     
     <?=template_footer()?>

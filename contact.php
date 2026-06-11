@@ -67,7 +67,7 @@
 
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62881.04771547929!2d78.0525172616815!3d9.928504684231331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf7d19c3d23f%3A0x28ff3cbe5b3c5dd6!2sRailway%20Higher%20Secondary%20School%20(CBSE)!5e0!3m2!1sen!2sin!4v1781155963446!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62881.04771547929!2d78.0525172616815!3d9.928504684231331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf7d19c3d23f%3A0x28ff3cbe5b3c5dd6!2sRailway%20Higher%20Secondary%20School%20(CBSE)!5e0!3m2!1sen!2sin!4v1781155963446!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

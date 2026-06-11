@@ -994,3 +994,96 @@ ul.dropdown-menu li a:hover {
     text-decoration: none;
 }
 
+/* ===========================
+   CONTACT PAGE – RESPONSIVE
+=========================== */
+
+/* Banner: clamp height so it works at every zoom level */
+.contact-page-banner {
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
+}
+
+.contact-page-banner h2.page-title {
+    font-size: clamp(24px, 4vw, 48px);
+    text-align: center;
+    padding: 0 16px;
+}
+
+/* contact-1: equal-height cards with row gap */
+.contact-1 .row {
+    row-gap: 24px;
+    align-items: stretch;
+}
+
+/* contact-2: section spacing */
+.contact-2 {
+    padding: clamp(30px, 5vw, 60px) 0;
+}
+
+.contact-2 .section-title {
+    margin-bottom: clamp(20px, 3vw, 36px);
+}
+
+/* Make the map iframe fully fluid */
+.contact-map {
+    display: block;
+    width: 100%;
+    height: clamp(260px, 45vw, 480px);
+    border: 0;
+    border-radius: 16px;
+}
+
+/* When the left column (form placeholder) is empty,
+   push the map column to full width and center it */
+.contact-2 .row > .col-12.col-md-6:first-child:empty {
+    display: none;
+}
+
+.contact-2 .row > .col-12.col-md-6:first-child:empty ~ .col-12.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* Zoom-out safety (≥1400px): keep map at a comfortable max */
+@media (min-width: 1400px) {
+    .contact-map {
+        height: 500px;
+    }
+}
+
+/* Tablets (≤991px) */
+@media (max-width: 991px) {
+    .contact-map {
+        height: clamp(260px, 50vw, 400px);
+    }
+}
+
+/* Mobile (≤575px) */
+@media (max-width: 575px) {
+    .contact-1 .icon-box {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .contact-map {
+        height: 260px;
+    }
+
+    /* Stack badge and title nicely */
+    .contact-2 span.badge {
+        display: block;
+        margin-bottom: 6px;
+    }
+}
+
+/* Very small phones (≤360px) */
+@media (max-width: 360px) {
+    .contact-page-banner {
+        min-height: 120px;
+    }
+
+    .contact-map {
+        height: 220px;
+    }
+}
