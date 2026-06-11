@@ -22,7 +22,21 @@
 </head>
 <body>
     <?=template_header()?>
-   
+    <section class="fac-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">Campus Overview</span>
+                    <h2 class="section-title">Inspiring Education in a Heritage Green Campus</h2>
+                    <p class="section-desc">Railway Higher Secondary School, Madurai, is situated on a historic heritage campus that reflects the institution's rich educational legacy and tradition of excellence. The spacious surroundings, traditional architecture, and disciplined atmosphere create an inspiring environment that supports academic achievement and holistic student development.</p>
+                    <p class="section-desc">The campus also promotes a clean, green, and eco-friendly environment, providing students with a peaceful and healthy space for learning. Through greenery, cleanliness initiatives, and environmental awareness programs, the school encourages responsible and sustainable practices while fostering a positive educational experience.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets/Images/fac.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
     
     <?=template_footer()?>
 

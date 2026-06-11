@@ -1319,3 +1319,14 @@ ul.dropdown-menu li a:hover {
 .gallery:nth-child(even){
     background-color: #072c4c1f;
 }
+
+
+/* Facilities Page */
+
+.fac-1 .img-fluid{
+    border-radius: 20px;
+}
+
+.fac-1 p.section-desc {
+    text-align: justify;
+}
