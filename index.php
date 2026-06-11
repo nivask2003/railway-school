@@ -31,6 +31,7 @@
         <!-- Overlay -->
         <div class="hero-overlay"></div>
     </section>
+    
 
    <section class="home-2 py-5">
     <div class="container">
@@ -45,7 +46,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="box" data-aos="fade-up">
+                <div class="box" data-aos="fade-up" data-aos-delay=100>
                     <div class="icon-box">
                         <i class="bi bi-rocket-takeoff"></i>
                         <h4 class="box-title">Our Mission</h4>
@@ -54,7 +55,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="box" data-aos="fade-left">
+                <div class="box" data-aos="fade-left" data-aos-delay=150>
                     <div class="icon-box">
                         <i class="bi bi-gem"></i>
                         <h4 class="box-title">Core Values</h4>
@@ -93,6 +94,9 @@
         <img src="Assets/Images/about-bg.jpeg" alt="" class="img-fluid">
     </div>
    </section>
+   <section class="counter container">
+        <img src="Assets/Images/counter.webp" alt="" class="img-fluid counter-img">
+    </section>
 
    <section class="home-4 py-5">
     <div class="container">
@@ -100,10 +104,13 @@
             <span class="badge" data-aos="fade-up">Academics</span>
             <h2 class="section-title text-white" data-aos="fade-up" data-aos-delay="100">Empowering Minds Through Learning</h2>
         </div>
-        <div class="railway-academic-wrap">
-            <div class="row g-4 align-items-start">
-                <!-- Content Area -->
-                <div class="col-12 col-lg-8" data-aos="fade-right">
+        <div class="railway-academic-wrap d-flex" style="align-item:center; flex-direction:column; justify-content:center;">
+           <div class="nav flex-row railway-academic-tabs d-flex justify-content-center mb-4">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#rail-primary">Primary Education</button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-middle">Middle School Education</button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-secondary">Secondary Education</button>
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-higher">Higher Secondary Education</button>
+                    </div>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="rail-primary">
                             <div class="railway-academic-card">
@@ -143,16 +150,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Tabs -->
-                <div class="col-12 col-lg-4" data-aos="fade-left">
-                    <div class="nav flex-column railway-academic-tabs">
-                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#rail-primary">Primary Education</button>
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-middle">Middle School Education</button>
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-secondary">Secondary Education</button>
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#rail-higher">Higher Secondary Education</button>
-                    </div>
-                </div>
-            </div>
         </div>
    </section>
 

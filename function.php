@@ -32,12 +32,12 @@ function template_header(){
 
                         <!-- HAMBURGER (right) — Bootstrap default toggler -->
                         <button class="navbar-toggler ms-auto" type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="bi bi-list"></i>
                         </button>
 
                         <!-- NAV LINKS -->
