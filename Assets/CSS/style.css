@@ -1331,13 +1331,59 @@ ul.dropdown-menu li a:hover {
     text-align: justify;
 }
 
-.fac-2 .fac-card img.img-fluid {
-    border-radius: 20px;
+.fac-2 .fac-card{
+    position: relative;
 }
 
+.fac-2 .fac-card img.img-fluid {
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.fac-2 .fac-card::before{
+    content: "";
+    position: absolute;
+    background-color: #072c4c5c;
+    border-radius: 20px;
+    width: 0;
+    height: 62%;
+    top: 0;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.fac-2 .fac-card:hover::before{
+    width: 100%;
+}
 .fac-2 .fac-card .content-card{
-    position: relative;
-    background-color: #c89b3c7a;
+        position: relative;
+    /* background-color: #c89b3c7a; */
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 100%;
+    box-shadow: 9px 7px 0px #072c4c;
+    transition: 0.3s ease-in-out;
+    bottom: 32px;
+}
+
+.fac-2 .fac-card:hover .content-card{
+    box-shadow: 9px 7px 0px #C89B3C;
+}
+
+.fac-2 .fac-card .content-card::before{
+    content: "";
+    position: absolute;
+    background-color:#c89b3c7a ;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    top: 0;
+    left: 0;
 }
 
 .fac-2 .fac-card .content-card .card-heading{
@@ -1350,4 +1396,9 @@ ul.dropdown-menu li a:hover {
     color: #fff;
     border-radius: 20px;
 
+}
+
+.fac-2 .fac-card .content-card p.section-desc.mt-5 {
+    text-align: justify;
+    position: relative;
 }

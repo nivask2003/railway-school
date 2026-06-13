@@ -25,13 +25,13 @@
     <section class="fac-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <span class="badge">Campus Overview</span>
                     <h2 class="section-title">Inspiring Education in a Heritage Green Campus</h2>
                     <p class="section-desc">Railway Higher Secondary School, Madurai, is situated on a historic heritage campus that reflects the institution's rich educational legacy and tradition of excellence. The spacious surroundings, traditional architecture, and disciplined atmosphere create an inspiring environment that supports academic achievement and holistic student development.</p>
                     <p class="section-desc">The campus also promotes a clean, green, and eco-friendly environment, providing students with a peaceful and healthy space for learning. Through greenery, cleanliness initiatives, and environmental awareness programs, the school encourages responsible and sustainable practices while fostering a positive educational experience.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos=fade-left>
                     <img src="Assets/Images/fac.webp" alt="" class="img-fluid">
                 </div>
             </div>
@@ -41,12 +41,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="fac-card">
+                    <div class="fac-card" data-aos="fade-right">
                         <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
                         <div class="content-card">
                             <div class="card-heading">
                                 <h4 class="card-title">Smart Classroom</h4>
                             </div>
+                            <p class="section-desc mt-5">Our smart classrooms use modern digital tools and interactive teaching methods to enhance learning, improve student engagement, strengthen concept understanding, and create a dynamic educational experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card" data-aos="fade-down" data-aos-delay="100">
+                        <img src="Assets/Images/lab.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Smart Laboratories</h4>
+                            </div>
+                            <p class="section-desc mt-5">Our smart laboratories combine modern equipment, technology, and practical learning experiences to encourage innovation, scientific exploration, critical thinking, and skill development among students.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card" data-aos="fade-left" data-aos-delay="150">
+                        <img src="Assets/Images/library.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Academic Library</h4>
+                            </div>
+                            <p class="section-desc mt-5">Our academic library provides a rich collection of books, reference materials, and digital resources that support research, independent learning, knowledge enhancement, and academic excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card" data-aos="fade-right">
+                        <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Smart Classroom</h4>
+                            </div>
+                            <p class="section-desc mt-5">Our smart classrooms use modern digital tools and interactive teaching methods to enhance learning, improve student engagement, strengthen concept understanding, and create a dynamic educational experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card" data-aos="fade-down" data-aos-delay="100">
+                        <img src="Assets/Images/lab.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Smart Laboratories</h4>
+                            </div>
+                            <p class="section-desc mt-5">Our smart laboratories combine modern equipment, technology, and practical learning experiences to encourage innovation, scientific exploration, critical thinking, and skill development among students.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card" data-aos="fade-left" data-aos-delay="150">
+                        <img src="Assets/Images/library.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Academic Library</h4>
+                            </div>
+                            <p class="section-desc mt-5">Our academic library provides a rich collection of books, reference materials, and digital resources that support research, independent learning, knowledge enhancement, and academic excellence.</p>
                         </div>
                     </div>
                 </div>
