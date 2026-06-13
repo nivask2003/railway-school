@@ -1330,3 +1330,24 @@ ul.dropdown-menu li a:hover {
 .fac-1 p.section-desc {
     text-align: justify;
 }
+
+.fac-2 .fac-card img.img-fluid {
+    border-radius: 20px;
+}
+
+.fac-2 .fac-card .content-card{
+    position: relative;
+    background-color: #c89b3c7a;
+}
+
+.fac-2 .fac-card .content-card .card-heading{
+       background-color: #072C4C;
+    width: 290px;
+    position: absolute;
+    left: 62px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 20px;
+
+}

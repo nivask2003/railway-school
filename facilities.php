@@ -37,6 +37,22 @@
             </div>
         </div>
     </section>
+    <section class="fac-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="fac-card">
+                        <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
+                        <div class="content-card">
+                            <div class="card-heading">
+                                <h4 class="card-title">Smart Classroom</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <?=template_footer()?>
 
