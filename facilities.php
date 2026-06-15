@@ -22,16 +22,19 @@
 </head>
 <body>
     <?=template_header()?>
+    <section class="facilities-page-banner py-5" id="pagebanner">
+        <h2 class="page-title text-white">Facilities</h2>
+    </section>
     <section class="fac-1 py-5">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center g-4">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <span class="badge">Campus Overview</span>
                     <h2 class="section-title">Inspiring Education in a Heritage Green Campus</h2>
                     <p class="section-desc">Railway Higher Secondary School, Madurai, is situated on a historic heritage campus that reflects the institution's rich educational legacy and tradition of excellence. The spacious surroundings, traditional architecture, and disciplined atmosphere create an inspiring environment that supports academic achievement and holistic student development.</p>
                     <p class="section-desc">The campus also promotes a clean, green, and eco-friendly environment, providing students with a peaceful and healthy space for learning. Through greenery, cleanliness initiatives, and environmental awareness programs, the school encourages responsible and sustainable practices while fostering a positive educational experience.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6" data-aos=fade-left>
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <img src="Assets/Images/fac.webp" alt="" class="img-fluid">
                 </div>
             </div>
@@ -74,7 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="fac-card" data-aos="fade-right">
                         <img src="Assets/Images/sports.webp" alt="" class="img-fluid">
@@ -113,11 +116,11 @@
     </section>
     <section class="fac-3">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <img src="Assets/Images/transport.webp" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <span class="badge">Transport Facilities</span>
                     <h2 class="section-title">Safe and Reliable Transportation</h2>
                     <p class="section-desc">The school provides safe and reliable transportation facilities to ensure convenient travel for students from different parts of the city. Well-maintained vehicles, experienced drivers, and responsible support staff help create a comfortable commuting experience. Regular monitoring and adherence to safety standards ensure that students reach the campus and return home securely each day.</p>

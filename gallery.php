@@ -22,7 +22,7 @@
 </head>
 <body>
     <?=template_header()?>
-    <section class="gallery-page-banner">
+    <section class="gallery-page-banner" id="pagebanner">
         <h2 class="page-title text-white">Gallery</h2>
     </section>
     <section class="gallery py-5" data-aos="fade-right">

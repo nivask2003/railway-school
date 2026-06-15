@@ -1278,7 +1278,7 @@ ul.dropdown-menu li a:hover {
         row-gap: 16px;
     }
 
-    .gallery-page-banner {
+    #page-banner {
         min-height: 120px;
     }
 
@@ -1290,7 +1290,7 @@ ul.dropdown-menu li a:hover {
 
 /* Very small phones (≤360px) */
 @media (max-width: 360px) {
-    .gallery-page-banner {
+    #page-banner {
         min-height: 110px;
     }
 
@@ -1321,62 +1321,115 @@ ul.dropdown-menu li a:hover {
 }
 
 
-/* Facilities Page */
+/* ===========================
+   FACILITIES PAGE
+=========================== */
 
-.fac-1 .img-fluid{
+
+.facilities-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
+    background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/facilities-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.facilities-page-banner h2.page-title {
+    font-size: clamp(24px, 4vw, 48px);
+    text-align: center;
+    padding: 0 16px;
+}
+
+/* ── fac-1 (Campus Overview) ── */
+
+.fac-1 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.fac-1 .img-fluid {
     border-radius: 20px;
+    width: 100%;
+    height: clamp(220px, 35vw, 480px);
+    object-fit: cover;
+    display: block;
 }
 
 .fac-1 p.section-desc {
     text-align: justify;
+    font-size: clamp(14px, 1.1vw, 16px);
 }
 
-.fac-2 .fac-card{
+/* ── fac-2 (Facility Cards) ── */
+
+.fac-2 .row {
+    row-gap: 40px;
+}
+
+.fac-2 .fac-card {
     position: relative;
+    height: 100%;
 }
 
+/* Image inside card */
 .fac-2 .fac-card img.img-fluid {
     border-radius: 20px;
+    width: 100%;
+    height: clamp(180px, 22vw, 320px);
+    object-fit: cover;
+    display: block;
     transition: 0.3s ease-in-out;
 }
 
-.fac-2 .fac-card::before{
+/* Hover overlay on image */
+.fac-2 .fac-card::before {
     content: "";
     position: absolute;
     background-color: #072c4c5c;
     border-radius: 20px;
     width: 0;
-    height: 62%;
+    height: 0;
     top: 0;
-    bottom: 0;
+    left: 0;
     transition: 0.3s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
 }
 
-.fac-2 .fac-card:hover::before{
+.fac-2 .fac-card:hover::before {
     width: 100%;
+    height: clamp(180px, 22vw, 320px); /* matches image height */
 }
-.fac-2 .fac-card .content-card{
-        position: relative;
-    /* background-color: #c89b3c7a; */
+
+/* Content card — pulled up over the image bottom */
+.fac-2 .fac-card .content-card {
+    position: relative;
     background: #fff;
-    padding: 20px;
+    padding: clamp(14px, 2vw, 24px);
+    padding-top: clamp(40px, 5vw, 56px); /* room for the floating heading badge */
     border-radius: 20px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
-    height: 100%;
     box-shadow: 9px 7px 0px #072c4c;
     transition: 0.3s ease-in-out;
-    bottom: 32px;
+    margin-top: -28px; /* overlap bottom of image */
+    z-index: 2;
+    height: 210px;
 }
 
-.fac-2 .fac-card:hover .content-card{
+.fac-2 .fac-card:hover .content-card {
     box-shadow: 9px 7px 0px #C89B3C;
 }
 
-.fac-2 .fac-card .content-card::before{
+/* Gold tint layer behind content */
+.fac-2 .fac-card .content-card::before {
     content: "";
     position: absolute;
-    background-color:#c89b3c7a ;
+    background-color: #c89b3c7a;
     height: 100%;
     width: 100%;
     border-radius: 20px;
@@ -1384,29 +1437,190 @@ ul.dropdown-menu li a:hover {
     border-bottom-left-radius: 60px;
     top: 0;
     left: 0;
+    pointer-events: none;
 }
 
-.fac-2 .fac-card .content-card .card-heading{
-       background-color: #072C4C;
-    width: 290px;
+/* Card heading badge — fluid width, centred */
+.fac-2 .fac-card .content-card .card-heading {
+    background-color: #072C4C;
     position: absolute;
-    left: 62px;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 48px);
+    max-width: 290px;
+    min-width: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
     color: #fff;
     border-radius: 20px;
-
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 3;
 }
 
-.fac-2 .fac-card .content-card p.section-desc.mt-5 {
+.fac-2 .fac-card .content-card .card-heading .card-title {
+    font-size: clamp(14px, 1.3vw, 18px);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Body text inside card */
+.fac-2 .fac-card .content-card p.section-desc {
     text-align: justify;
     position: relative;
+    font-size: clamp(13px, 1vw, 15px);
+    margin-top: 12px !important; /* override Bootstrap mt-5 */
+    z-index: 1;
+}
+
+/* ── fac-3 (Transport) ── */
+
+.fac-3 {
+    padding: clamp(40px, 6vw, 80px) 0;
+}
+
+.fac-3 .row {
+    align-items: center;
+    row-gap: 30px;
 }
 
 .fac-3 p.section-desc {
     text-align: justify;
+    font-size: clamp(14px, 1.1vw, 16px);
 }
 
 .fac-3 img.img-fluid {
     border-radius: 20px;
+    width: 100%;
+    height: clamp(220px, 35vw, 480px);
+    object-fit: cover;
+    display: block;
+}
+
+/* ── Facilities responsive breakpoints ── */
+
+/* Tablets (≤991px) */
+@media (max-width: 991px) {
+    .fac-2 .fac-card img.img-fluid,
+    .fac-2 .fac-card::before {
+        height: clamp(180px, 32vw, 280px);
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: clamp(180px, 32vw, 280px);
+    }
+
+    .fac-2 .fac-card .content-card .card-heading {
+        max-width: 260px;
+    }
+}
+
+/* Mobile landscape / large phones (≤767px) */
+@media (max-width: 767px) {
+    .fac-1 .img-fluid,
+    .fac-3 img.img-fluid {
+        height: clamp(200px, 55vw, 360px);
+    }
+
+    .fac-2 .fac-card img.img-fluid {
+        height: clamp(200px, 50vw, 320px);
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: clamp(200px, 50vw, 320px);
+    }
+
+    .fac-2 .fac-card .content-card .card-heading {
+        max-width: 80%;
+    }
+}
+
+/* Small phones (≤575px) */
+@media (max-width: 575px) {
+    .fac-1 .img-fluid,
+    .fac-3 img.img-fluid {
+        height: clamp(180px, 65vw, 300px);
+    }
+
+    .fac-2 .row {
+        row-gap: 32px;
+    }
+
+    .fac-2 .fac-card img.img-fluid {
+        height: clamp(180px, 60vw, 300px);
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: clamp(180px, 60vw, 300px);
+    }
+
+    .fac-2 .fac-card .content-card .card-heading {
+        max-width: 90%;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .fac-2 .fac-card .content-card .card-title {
+        white-space: normal;
+    }
+}
+
+/* Very small phones (≤360px) */
+@media (max-width: 360px) {
+    .fac-1 .img-fluid,
+    .fac-3 img.img-fluid {
+        height: 200px;
+    }
+
+    .fac-2 .fac-card img.img-fluid {
+        height: 200px;
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: 200px;
+    }
+}
+
+/* Zoom-out safety: wide viewports (≥1400px) */
+@media (min-width: 1400px) {
+    .fac-1 .img-fluid,
+    .fac-3 img.img-fluid {
+        height: clamp(380px, 28vw, 520px);
+    }
+
+    .fac-2 .fac-card img.img-fluid {
+        height: clamp(260px, 18vw, 340px);
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: clamp(260px, 18vw, 340px);
+    }
+}
+
+/* Very wide / extreme zoom-out (≥1800px) */
+@media (min-width: 1800px) {
+    .fac-1 .img-fluid,
+    .fac-3 img.img-fluid {
+        height: 520px;
+    }
+
+    .fac-2 .fac-card img.img-fluid {
+        height: 340px;
+    }
+
+    .fac-2 .fac-card:hover::before {
+        height: 340px;
+    }
+}
+
+@media(max-width:482px){
+    .fac-1 .row.align-items-center.g-4 {
+    flex-direction: column-reverse;
+}
 }
