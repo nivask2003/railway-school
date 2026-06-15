@@ -77,36 +77,51 @@
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="fac-card" data-aos="fade-right">
-                        <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
+                        <img src="Assets/Images/sports.webp" alt="" class="img-fluid">
                         <div class="content-card">
                             <div class="card-heading">
-                                <h4 class="card-title">Smart Classroom</h4>
+                                <h4 class="card-title">Sports</h4>
                             </div>
-                            <p class="section-desc mt-5">Our smart classrooms use modern digital tools and interactive teaching methods to enhance learning, improve student engagement, strengthen concept understanding, and create a dynamic educational experience.</p>
+                            <p class="section-desc mt-5">Our sports facilities encourage physical fitness, teamwork, discipline, and sportsmanship through indoor and outdoor activities, helping students build confidence, leadership skills, and overall well-being.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="fac-card" data-aos="fade-down" data-aos-delay="100">
-                        <img src="Assets/Images/lab.webp" alt="" class="img-fluid">
+                        <img src="Assets/Images/activity.webp" alt="" class="img-fluid">
                         <div class="content-card">
                             <div class="card-heading">
-                                <h4 class="card-title">Smart Laboratories</h4>
+                                <h4 class="card-title">Activity Hub</h4>
                             </div>
-                            <p class="section-desc mt-5">Our smart laboratories combine modern equipment, technology, and practical learning experiences to encourage innovation, scientific exploration, critical thinking, and skill development among students.</p>
+                            <p class="section-desc mt-5">Our activity hub provides spacious venues for cultural events, seminars, competitions, and student programs, fostering creativity, communication skills, confidence, collaboration, and all-round development.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="fac-card" data-aos="fade-left" data-aos-delay="150">
-                        <img src="Assets/Images/library.webp" alt="" class="img-fluid">
+                        <img src="Assets/Images/safety.webp" alt="" class="img-fluid">
                         <div class="content-card">
                             <div class="card-heading">
-                                <h4 class="card-title">Academic Library</h4>
+                                <h4 class="card-title">Student Safety</h4>
                             </div>
-                            <p class="section-desc mt-5">Our academic library provides a rich collection of books, reference materials, and digital resources that support research, independent learning, knowledge enhancement, and academic excellence.</p>
+                            <p class="section-desc mt-5">Our safe campus promotes student well-being through proper supervision, discipline, and security measures, ensuring a supportive environment that encourages learning, confidence, safety, and personal growth.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fac-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets/Images/transport.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">Transport Facilities</span>
+                    <h2 class="section-title">Safe and Reliable Transportation</h2>
+                    <p class="section-desc">The school provides safe and reliable transportation facilities to ensure convenient travel for students from different parts of the city. Well-maintained vehicles, experienced drivers, and responsible support staff help create a comfortable commuting experience. Regular monitoring and adherence to safety standards ensure that students reach the campus and return home securely each day.</p>
+                    <p class="section-desc">Transportation services are designed to support punctuality, convenience, and peace of mind for parents and students. The school prioritizes safety through proper supervision, disciplined travel practices, and efficient route management, making daily commuting smooth, secure, and stress-free while contributing to a positive educational experience</p>
                 </div>
             </div>
         </div>

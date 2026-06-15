@@ -1402,3 +1402,11 @@ ul.dropdown-menu li a:hover {
     text-align: justify;
     position: relative;
 }
+
+.fac-3 p.section-desc {
+    text-align: justify;
+}
+
+.fac-3 img.img-fluid {
+    border-radius: 20px;
+}
