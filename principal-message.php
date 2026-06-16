@@ -22,8 +22,26 @@
 </head>
 <body>
     <?=template_header()?>
+    <section class="principal-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
+                    <img src="Assets/Images/principal.webp" alt="" class="img-fluid">
+                    <div class="heading-center">
+                        <h4 class="section-title">Dr. R. Rajalakshmi</h4>
+                        <span class="badge">Principal</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
+                    <h2 class="section-title">Principal Message</h2>
+                    <p class="section-desc">At Railway Higher Secondary School, Madurai, we believe that education is the most powerful tool for shaping the future of individuals and society. Established in 1889, our institution has a rich heritage of academic excellence and a long-standing commitment to providing quality education that empowers students with knowledge, confidence, discipline, and strong moral values. Over the years, the school has earned a reputation for nurturing young minds and guiding them toward personal and academic success through a balanced and student-centered approach to learning.</p>
+                    <p class="section-desc">Our educational philosophy extends beyond classroom instruction and examination results. We focus on the holistic development of every student by fostering intellectual growth, critical thinking, creativity, leadership skills, and social responsibility. The school provides a supportive and inclusive learning environment where students are encouraged to explore their talents, develop self-confidence, and cultivate a lifelong passion for learning. Through a blend of traditional values and modern teaching methodologies, we ensure that students receive a well-rounded education that prepares them for future challenges and opportunities</p>
+                </div>
+            </div>
+        </div>
+    </section>
    
-    
+
     <?=template_footer()?>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

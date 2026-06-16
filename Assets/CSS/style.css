@@ -1872,3 +1872,20 @@ section.about-3 {
         margin-top: 180px;
     }
 }
+
+
+/* Message */
+
+.principal-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.principal-1 h4.section-title {
+    font-size: 30px;
+    margin-top: 14px;
+}
+
+.principal-1 h2.section-title {
+    border-bottom: 2px solid #bd9d6c;
+    padding-bottom: 10px;
+}
