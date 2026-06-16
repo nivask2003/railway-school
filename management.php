@@ -24,26 +24,34 @@
     <?=template_header()?>
     <!-- Page Banner -->
     <div class="principal-page-banner">
-        <h2 class="page-title text-white">Principal's Message</h2>
+        <h2 class="page-title text-white">School Management</h2>
     </div>
-
-    <section class="principal-1 py-5">
+    <section class="manage-1 py-5">
         <div class="container">
             <div class="row">
-                <!-- Photo + name -->
-                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
-                    <img src="Assets/Images/principal.webp" alt="Dr. R. Rajalakshmi – Principal" class="img-fluid">
-                    <div class="heading-center">
-                        <h4 class="section-title">Dr. R. Rajalakshmi</h4>
-                        <span class="badge">Principal</span>
-                    </div>
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
+                    <span class="badge">Management Desk</span>
+                    <h2 class="section-title">Leadership Rooted in Excellence</h2>
+                    <p class="section-desc">The management of Railway Higher Secondary School, Madurai, has played a significant role in preserving the institution’s rich heritage and upholding its long-standing tradition of educational excellence. Through dedicated leadership and strategic planning, the management continuously supports academic progress, infrastructure enhancement, faculty development, and student welfare initiatives that contribute to the overall growth of the institution. Their commitment ensures a nurturing environment where students receive quality education and opportunities for holistic development.</p>
+                    <p class="section-desc">Guided by a vision centered on discipline, service, integrity, and excellence, the management strives to create a strong foundation for future generations. By promoting high educational standards, supporting innovation, and encouraging value-based learning, the institution continues to empower students with the knowledge, skills, and confidence needed to achieve success. These efforts help shape responsible citizens and future leaders who contribute positively to society and the nation.</p>
                 </div>
-
-                <!-- Message text -->
-                <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
-                    <h2 class="section-title">Principal Message</h2>
-                    <p class="section-desc">At Railway Higher Secondary School, Madurai, we believe that education is the most powerful tool for shaping the future of individuals and society. Established in 1889, our institution has a rich heritage of academic excellence and a long-standing commitment to providing quality education that empowers students with knowledge, confidence, discipline, and strong moral values. Over the years, the school has earned a reputation for nurturing young minds and guiding them toward personal and academic success through a balanced and student-centered approach to learning.</p>
-                    <p class="section-desc">Our educational philosophy extends beyond classroom instruction and examination results. We focus on the holistic development of every student by fostering intellectual growth, critical thinking, creativity, leadership skills, and social responsibility. The school provides a supportive and inclusive learning environment where students are encouraged to explore their talents, develop self-confidence, and cultivate a lifelong passion for learning. Through a blend of traditional values and modern teaching methodologies, we ensure that students receive a well-rounded education that prepares them for future challenges and opportunities.</p>
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
+                    <img src="Assets/Images/management.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="manage-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets/Images/management-2.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">Faculty Excellence</span>
+                    <h2 class="section-title">Dedicated Educators, Lasting Impact</h2>
+                    <p class="section-desc">The faculty members of Railway Higher Secondary School, Madurai, are dedicated to delivering quality education through professionalism, commitment, and student-centered learning practices. With a strong focus on academic excellence and personal development, teachers guide, support, and inspire students to achieve their goals while building confidence, discipline, and strong values. Their dedication creates a positive and encouraging learning environment that nurtures growth and success.</p>
+                    <p class="section-desc">Through innovative teaching methodologies, continuous mentoring, and personalized attention, the faculty encourages curiosity, creativity, and lifelong learning among students. By fostering critical thinking, character development, and holistic growth, they uphold the institution’s proud tradition of educational excellence and help prepare students to become responsible citizens and future leaders.</p>
                 </div>
             </div>
         </div>
