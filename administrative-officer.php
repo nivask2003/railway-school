@@ -22,8 +22,34 @@
 </head>
 <body>
     <?=template_header()?>
+    <!-- Page Banner -->
+    <div class="principal-page-banner">
+        <h2 class="page-title text-white">Administrative Officer's Message</h2>
+    </div>
+
+    <section class="principal-1 py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Photo + name -->
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
+                    <img src="Assets/Images/admin.webp" alt="Mr. S. Kumar – Administrative Officer" class="img-fluid">
+                    <div class="heading-center">
+                        <h4 class="section-title">Mr. S. Kumar</h4>
+                        <span class="badge">Administrative Officer</span>
+                    </div>
+                </div>
+
+                <!-- Message text -->
+                <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
+                    <h2 class="section-title">Administrative Officer Message</h2>
+                    <p class="section-desc">The administrative leadership of Railway Higher Secondary School, Madurai, plays a vital role in maintaining the institution’s long-standing tradition of educational excellence, discipline, and holistic student development. With a strong commitment to creating a well-organized, student-friendly, and progressive learning environment, the administration works diligently to ensure that every aspect of the school functions efficiently and effectively. From academic planning and infrastructure management to student welfare and parent engagement, the administrative team provides the foundation that supports the school’s mission of delivering quality education and nurturing responsible future citizens.</p>
+                    <p class="section-desc">The administration believes that a positive educational environment is built through careful planning, transparency, teamwork, and continuous improvement. By implementing structured systems and effective management practices, the institution ensures the smooth conduct of academic activities, co-curricular programmes, examinations, and campus operations throughout the academic year. Every effort is made to provide students with a safe, disciplined, and supportive atmosphere that encourages learning, personal growth, and character development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
    
-    
+
     <?=template_footer()?>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
