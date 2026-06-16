@@ -2251,3 +2251,26 @@ section.about-3 {
     border-radius: 36px;
     margin-bottom: 10px;
 }
+
+.academics-2 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.academics-2 li.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.academics-2 .icon-list i {
+    color: #c89b3c;
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.academics-2 img.img-fluid {
+    border-radius: 20px;
+}
