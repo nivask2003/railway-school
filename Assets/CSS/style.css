@@ -3653,3 +3653,526 @@ section.extra-1.py-5 {
         font-size: 12px;
     }
 }
+
+/* Admission Page */
+
+.admission-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/about-bg.webp);
+
+}
+
+.admission-1 p.section-desc {
+    text-align: justify;
+}
+
+.admission-1 img{
+    border-radius: 20px;
+}
+
+.admission-2{
+    background-color: #072c4c1f;
+}
+
+.admission-2 h5 {
+    background: #072c4c;
+    color: #fff;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.admission-2 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.admission-2 ul.icon-list li.list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admission-2 ul.icon-list li.list i{
+    font-size: 24px;
+    color: #C89B3C;
+}
+
+.admission-3{
+    background-color: #072C4C;
+    position: relative;
+}
+
+.admission-3 p.section-desc, .admission-4 p.section-desc {
+    text-align: justify;
+}
+
+.admission-3 img.img-fluid, .admission-4 img.img-fluid{
+    border-radius: 20px;
+}
+
+/* ===========================
+   ADMISSION PAGE — COMPLETE RESPONSIVE SYSTEM
+   Covers: 360px → 1800px+ and zoom 50%–150%
+=========================== */
+
+/* ── Base fluid sizing (applies at all widths / zoom levels) ── */
+
+.admission-page-banner .page-title {
+    font-size: clamp(28px, 5vw, 60px);
+    letter-spacing: 0.02em;
+}
+
+/* Section 1 — Overview */
+.admission-1 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.admission-1 .content-1,
+.admission-1 .content-2 {
+    padding-right: clamp(0px, 2vw, 20px);
+}
+
+.admission-1 .section-title {
+    font-size: clamp(20px, 2.8vw, 38px);
+}
+
+.admission-1 p.section-desc {
+    font-size: clamp(13.5px, 1.05vw, 16px);
+    line-height: 1.85;
+}
+
+/* Section 2 — Eligibility & Documents */
+.admission-2 .section-title {
+    font-size: clamp(22px, 3vw, 40px);
+}
+
+.admission-2 h5 {
+    font-size: clamp(14px, 1.3vw, 18px);
+    padding: clamp(8px, 1vw, 12px) clamp(14px, 1.5vw, 20px);
+}
+
+.admission-2 ul.icon-list li.list {
+    font-size: clamp(13px, 1vw, 15.5px);
+    gap: clamp(8px, 1vw, 14px);
+    margin-bottom: clamp(8px, 1vw, 14px);
+    align-items: flex-start;
+}
+
+.admission-2 ul.icon-list li.list i {
+    font-size: clamp(18px, 1.6vw, 26px);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.admission-2 .row {
+    row-gap: 30px;
+}
+
+/* Section 3 — Fee Guidelines */
+.admission-3 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.admission-3 .section-title {
+    font-size: clamp(22px, 2.8vw, 38px);
+}
+
+.admission-3 p.section-desc {
+    font-size: clamp(13.5px, 1.05vw, 16px);
+    line-height: 1.85;
+}
+
+/* Section 4 — Parent Interaction */
+.admission-4 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.admission-4 .section-title {
+    font-size: clamp(20px, 2.8vw, 38px);
+}
+
+.admission-4 p.section-desc {
+    font-size: clamp(13.5px, 1.05vw, 16px);
+    line-height: 1.85;
+}
+
+/* ===========================
+   ZOOM-OUT SAFE — ≥ 1400px
+=========================== */
+@media (min-width: 1400px) {
+    .admission-page-banner .page-title {
+        font-size: clamp(44px, 4vw, 62px);
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: clamp(15px, 0.95vw, 17px);
+        line-height: 1.9;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: clamp(14.5px, 0.95vw, 16.5px);
+    }
+}
+
+/* ===========================
+   VERY WIDE — ≥ 1800px (extreme zoom-out)
+=========================== */
+@media (min-width: 1800px) {
+    .admission-page-banner .page-title {
+        font-size: 64px;
+    }
+
+    .admission-1 .section-title,
+    .admission-2 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: 40px;
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: 17px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: 16.5px;
+    }
+}
+
+/* ===========================
+   TABLET LANDSCAPE — ≤ 1199px
+=========================== */
+@media (max-width: 1199px) {
+    .admission-1 .section-title,
+    .admission-2 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: clamp(20px, 3vw, 32px);
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: clamp(13.5px, 1.3vw, 15.5px);
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: clamp(13px, 1.2vw, 15px);
+    }
+}
+
+/* ===========================
+   TABLET PORTRAIT — ≤ 991px
+=========================== */
+@media (max-width: 991px) {
+    .admission-page-banner {
+        height: clamp(120px, 22vh, 220px);
+    }
+
+    .admission-page-banner .page-title {
+        font-size: clamp(26px, 5vw, 44px);
+    }
+
+    .admission-1 .row,
+    .admission-3 .row,
+    .admission-4 .row {
+        flex-direction: column;
+    }
+
+    /* Image comes after text on tablet portrait for sections 3 & 4 */
+    .admission-3 .row > .col-12:first-child {
+        order: 1;
+    }
+    .admission-3 .row > .col-12:last-child {
+        order: 2;
+    }
+
+    .admission-4 .row > .col-12:first-child {
+        order: 2;
+    }
+    .admission-4 .row > .col-12:last-child {
+        order: 1;
+    }
+
+    .admission-1 img,
+    .admission-3 img.img-fluid,
+    .admission-4 img.img-fluid {
+        width: 100%;
+        max-height: 380px;
+        object-fit: cover;
+    }
+
+    .admission-1 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: clamp(20px, 3.5vw, 30px);
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: clamp(13.5px, 1.6vw, 15px);
+        line-height: 1.8;
+    }
+
+    .admission-2 .row {
+        row-gap: 24px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: clamp(13px, 1.5vw, 15px);
+    }
+
+    .admission-2 h5 {
+        font-size: clamp(14px, 1.8vw, 17px);
+    }
+}
+
+/* ===========================
+   MOBILE — ≤ 767px
+=========================== */
+@media (max-width: 767px) {
+    .admission-page-banner {
+        height: clamp(110px, 20vh, 180px);
+    }
+
+    .admission-page-banner .page-title {
+        font-size: clamp(24px, 6vw, 36px);
+    }
+
+    .admission-1 .content-2 {
+        margin-top: 20px !important;
+    }
+
+    .admission-1 img {
+        max-height: 300px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .admission-1 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: clamp(18px, 5vw, 26px);
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: 13.5px;
+        line-height: 1.75;
+    }
+
+    .admission-2 .section-title {
+        font-size: clamp(20px, 5.5vw, 28px);
+    }
+
+    .admission-2 h5 {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: 13.5px;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .admission-2 ul.icon-list li.list i {
+        font-size: 20px;
+    }
+
+    .admission-3 img.img-fluid,
+    .admission-4 img.img-fluid {
+        max-height: 280px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* Badge sizing */
+    .admission-3 span.badge,
+    .admission-4 span.badge,
+    .admission-2 span.badge {
+        font-size: clamp(16px, 4vw, 22px);
+    }
+}
+
+/* ===========================
+   SMALL PHONES — ≤ 575px
+=========================== */
+@media (max-width: 575px) {
+    .admission-page-banner {
+        height: clamp(100px, 18vh, 160px);
+    }
+
+    .admission-page-banner .page-title {
+        font-size: clamp(22px, 7vw, 30px);
+    }
+
+    .admission-1 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: clamp(17px, 5.5vw, 22px);
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: 13px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .admission-2 .section-title {
+        font-size: clamp(18px, 6vw, 24px);
+    }
+
+    .admission-2 h5 {
+        font-size: 13.5px;
+        border-radius: 14px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: 13px;
+        gap: 7px;
+        margin-bottom: 9px;
+    }
+
+    .admission-2 ul.icon-list li.list i {
+        font-size: 18px;
+    }
+
+    .admission-3 img.img-fluid,
+    .admission-4 img.img-fluid {
+        max-height: 240px;
+    }
+
+    .admission-1 img {
+        max-height: 240px;
+    }
+
+    .admission-1 .content-2 {
+        margin-top: 16px !important;
+    }
+
+    .admission-3 span.badge,
+    .admission-4 span.badge,
+    .admission-2 span.badge {
+        font-size: clamp(15px, 4.5vw, 20px);
+    }
+
+    /* Section py-5 spacing reduction */
+    .admission-1.py-5,
+    .admission-2.py-5,
+    .admission-3.py-5,
+    .admission-4.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+
+/* ===========================
+   VERY SMALL PHONES — ≤ 390px
+=========================== */
+@media (max-width: 390px) {
+    .admission-page-banner .page-title {
+        font-size: 22px;
+    }
+
+    .admission-1 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: 17px;
+    }
+
+    .admission-2 .section-title {
+        font-size: 18px;
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: 12.5px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: 12.5px;
+    }
+
+    .admission-2 h5 {
+        font-size: 13px;
+        padding: 7px 12px;
+    }
+
+    .admission-3 img.img-fluid,
+    .admission-4 img.img-fluid,
+    .admission-1 img {
+        max-height: 210px;
+    }
+}
+
+/* ===========================
+   TINY PHONES — ≤ 360px
+=========================== */
+@media (max-width: 360px) {
+    .admission-page-banner .page-title {
+        font-size: 20px;
+    }
+
+    .admission-1 .section-title,
+    .admission-2 .section-title,
+    .admission-3 .section-title,
+    .admission-4 .section-title {
+        font-size: 16px;
+    }
+
+    .admission-1 p.section-desc,
+    .admission-3 p.section-desc,
+    .admission-4 p.section-desc {
+        font-size: 12px;
+    }
+
+    .admission-2 ul.icon-list li.list {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .admission-2 ul.icon-list li.list i {
+        font-size: 16px;
+    }
+
+    .admission-2 h5 {
+        font-size: 12.5px;
+        padding: 6px 10px;
+    }
+
+    .admission-1.py-5,
+    .admission-2.py-5,
+    .admission-3.py-5,
+    .admission-4.py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+
+@media (max-width:991px){
+    .admission-1 .row, .admission-3 .row, .admission-4 .row{
+        flex-direction: column-reverse;
+    }
+}
