@@ -3105,73 +3105,48 @@ summary:hover .acc-icon{
     }
 }
 
-/* Extra Curricular */
+/* ===========================
+   EXTRA-CURRICULAR PAGE — COMPLETE RESPONSIVE SYSTEM
+   Covers: 360px → 1800px+ and zoom 50%–150%
+=========================== */
 
-
-.extra-1 img.img-fluid {
-    border-radius: 80px;
+/* ── Banner title color (shared .academics-page-banner) ── */
+.academics-page-banner h2.page-title {
+    color: #ffffff;
+    font-size: clamp(22px, 4vw, 48px);
+    text-align: center;
+    padding: 0 16px;
 }
 
+/* ── Outer section spacing ── */
+section.extra-1.py-5 {
+    padding-top: clamp(28px, 5vw, 56px) !important;
+    padding-bottom: clamp(28px, 5vw, 56px) !important;
+}
+
+/* ── Row gap between the three card-rows ── */
+.extra-1 > .container > .row {
+    row-gap: clamp(16px, 2.5vw, 28px);
+}
+
+/* ── Each col keeps full height so card fills it ── */
+.extra-1 .col-12.col-md-6.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── image-box card ── */
 .extra-1 .image-box {
     background: #c89b3c7a;
-    padding: 20px;
+    padding: clamp(14px, 1.8vw, 22px);
     border-radius: 20px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     height: 100%;
     box-shadow: 9px 7px 0px #072c4c;
-    transition: 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     display: flex;
     align-items: stretch;
-}
-
-/* ===========================
-   EXTRA-CURRICULAR – BASE / FLUID
-=========================== */
-
-.extra-1 .image-box .row {
-    align-items: center;
-    row-gap: 16px;
-    width: 100%;
-}
-
-.extra-1 .image-box .image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.extra-1 img.img-fluid {
-    width: 100%;
-    height: clamp(100px, 14vw, 180px);
-    object-fit: cover;
-    border-radius: 80px;
-    display: block;
-}
-
-.extra-1 .image-box .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.extra-1 h4.box-title {
-    font-size: clamp(16px, 1.5vw, 22px);
-    font-weight: 700;
-    margin-bottom: 8px;
-    line-height: 1.3;
-}
-
-.extra-1 p.box-desc {
-    font-size: clamp(13px, 1vw, 15px);
-    line-height: 1.75;
-    margin-bottom: 0;
-    text-align: justify;
-}
-
-.extra-1 .row.mt-4 {
-    margin-top: clamp(16px, 2.5vw, 24px) !important;
 }
 
 .extra-1 .image-box:hover {
@@ -3179,176 +3154,241 @@ summary:hover .acc-icon{
     transform: translateY(-3px);
 }
 
-/* ===========================
-   EXTRA-CURRICULAR – ROW GAP FIX
-   (the two .col-md-6 boxes in each row need gap when stacked)
-=========================== */
-.extra-1 > .container > .row {
-    row-gap: 24px;
+/* ── Inner Bootstrap row ── */
+.extra-1 .image-box .row {
+    align-items: center;
+    flex-wrap: nowrap;        /* keep image + text side-by-side by default */
+    row-gap: 0;
+    column-gap: 0;
+    width: 100%;
+    margin: 0;
+}
+
+/* ── Image column: prevent collapsing ── */
+.extra-1 .image-box .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0 8px 0 0;
+}
+
+/* ── Single, authoritative image rule ── */
+.extra-1 img.img-fluid {
+    display: block;
+    width: 100%;
+    height: clamp(100px, 13vw, 175px);
+    object-fit: cover;
+    border-radius: 70px;       /* pill shape on all sizes by default */
+}
+
+/* ── Content column ── */
+.extra-1 .image-box .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4px;
+}
+
+/* ── Typography ── */
+.extra-1 h4.box-title {
+    font-size: clamp(15px, 1.4vw, 21px);
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    color: #072C4C;
+}
+
+.extra-1 p.box-desc {
+    font-size: clamp(13px, 1.05vw, 15px);
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+/* ── Heading area spacing ── */
+.extra-1 .heading-center {
+    margin-bottom: clamp(20px, 3vw, 36px);
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – LARGE (≥ 1400px / zoom-out)
+   ZOOM-OUT SAFE — ≥ 1400px
 =========================== */
 @media (min-width: 1400px) {
     .extra-1 img.img-fluid {
-        height: clamp(160px, 12vw, 210px);
-    }
-
-    .extra-1 h4.box-title {
-        font-size: clamp(18px, 1.3vw, 24px);
-    }
-
-    .extra-1 p.box-desc {
-        font-size: clamp(14px, 0.9vw, 16px);
-        line-height: 1.85;
+        height: clamp(150px, 11vw, 200px);
     }
 
     .extra-1 .image-box {
-        padding: 24px;
+        padding: 24px 26px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: clamp(18px, 1.25vw, 23px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: clamp(14px, 0.95vw, 16px);
+        line-height: 1.85;
     }
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – VERY WIDE (≥ 1800px)
+   VERY WIDE — ≥ 1800px (extreme zoom-out)
 =========================== */
 @media (min-width: 1800px) {
     .extra-1 img.img-fluid {
-        height: 210px;
+        height: 200px;
     }
 
     .extra-1 h4.box-title {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .extra-1 p.box-desc {
         font-size: 16px;
     }
+
+    .extra-1 .image-box {
+        padding: 28px 30px;
+    }
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – TABLET (≤ 991px)
+   TABLET PORTRAIT — ≤ 991px
 =========================== */
 @media (max-width: 991px) {
     .extra-1 img.img-fluid {
-        height: clamp(90px, 16vw, 150px);
-        border-radius: 60px;
-    }
-
-    .extra-1 h4.box-title {
-        font-size: clamp(15px, 2vw, 19px);
-    }
-
-    .extra-1 p.box-desc {
-        font-size: clamp(13px, 1.4vw, 15px);
+        height: clamp(90px, 15vw, 145px);
+        border-radius: 55px;
     }
 
     .extra-1 .image-box {
-        padding: 16px;
+        padding: clamp(12px, 1.8vw, 18px);
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
     }
 
-    .extra-1 .row.mt-4 {
-        margin-top: 20px !important;
+    .extra-1 h4.box-title {
+        font-size: clamp(14px, 1.8vw, 18px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: clamp(12.5px, 1.3vw, 14.5px);
     }
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – PHABLET / SMALL TABLET (≤ 767px)
+   MOBILE — ≤ 767px
+   Both col-md-6 cards go full width, stacked
 =========================== */
 @media (max-width: 767px) {
+    /* Full-width cards */
     .extra-1 .col-12.col-md-6.col-lg-6 {
         width: 100%;
         max-width: 100%;
         flex: 0 0 100%;
     }
 
+    .extra-1 > .container > .row {
+        row-gap: 16px;
+    }
+
     .extra-1 img.img-fluid {
-        height: clamp(100px, 28vw, 170px);
-        border-radius: 50px;
-    }
-
-    .extra-1 h4.box-title {
-        font-size: clamp(15px, 3.5vw, 18px);
-    }
-
-    .extra-1 p.box-desc {
-        font-size: 14px;
-        line-height: 1.7;
+        height: clamp(95px, 22vw, 155px);
+        border-radius: 45px;
     }
 
     .extra-1 .image-box {
-        padding: 16px;
-        border-top-right-radius: 40px;
-        border-bottom-left-radius: 40px;
+        padding: 14px 16px;
+        border-top-right-radius: 44px;
+        border-bottom-left-radius: 44px;
     }
 
-    .extra-1 .row.mt-4 {
-        margin-top: 16px !important;
+    .extra-1 h4.box-title {
+        font-size: clamp(14px, 3.2vw, 17px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: 13.5px;
+        line-height: 1.75;
     }
 
     .extra-1 .heading-center {
-        margin-bottom: 24px;
+        margin-bottom: 20px;
     }
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – MOBILE (≤ 575px)
+   SMALL PHONES — ≤ 575px
+   Stack image on top of text inside each card
 =========================== */
 @media (max-width: 575px) {
     section.extra-1.py-5 {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
     }
 
-    /* Stack image above text on narrow screens */
+    /* Wrap columns vertically inside the card */
     .extra-1 .image-box .row {
-        flex-direction: column;
-        text-align: center;
+        flex-wrap: wrap;
+        row-gap: 12px;
     }
 
-    .extra-1 .image-box .image,
+    /* Image col takes full width, centered */
+    .extra-1 .image-box .image {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0;
+    }
+
+    /* Content col takes full width */
     .extra-1 .image-box .content {
         width: 100%;
         max-width: 100%;
         flex: 0 0 100%;
+        padding: 0;
     }
 
+    /* Square-ish circle image, centred */
     .extra-1 img.img-fluid {
-        height: clamp(130px, 45vw, 200px);
-        width:  clamp(130px, 45vw, 200px);
+        width: clamp(110px, 40vw, 165px);
+        height: clamp(110px, 40vw, 165px);
         border-radius: 50%;
-        object-fit: cover;
         margin: 0 auto;
-    }
-
-    .extra-1 p.box-desc {
-        text-align: left;
-        font-size: 13.5px;
+        flex-shrink: 0;
     }
 
     .extra-1 h4.box-title {
-        font-size: 16px;
+        font-size: 15.5px;
         text-align: left;
     }
 
-    .extra-1 .image-box {
-        padding: 18px;
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 30px;
+    .extra-1 p.box-desc {
+        font-size: 13px;
+        text-align: left;
+        line-height: 1.7;
     }
 
-    .extra-1 .row.mt-4 {
-        margin-top: 14px !important;
+    .extra-1 .image-box {
+        padding: 16px 18px;
+        border-top-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+    }
+
+    .extra-1 > .container > .row {
+        row-gap: 14px;
     }
 }
 
 /* ===========================
-   EXTRA-CURRICULAR – VERY SMALL (≤ 360px)
+   VERY SMALL PHONES — ≤ 390px
 =========================== */
-@media (max-width: 360px) {
+@media (max-width: 390px) {
     .extra-1 img.img-fluid {
-        height: 120px;
-        width: 120px;
+        width: 105px;
+        height: 105px;
     }
 
     .extra-1 h4.box-title {
@@ -3356,10 +3396,260 @@ summary:hover .acc-icon{
     }
 
     .extra-1 p.box-desc {
-        font-size: 13px;
+        font-size: 12.5px;
     }
 
     .extra-1 .image-box {
-        padding: 14px;
+        padding: 14px 15px;
+        border-top-right-radius: 28px;
+        border-bottom-left-radius: 28px;
+    }
+}
+
+/* ===========================
+   TINY PHONES — ≤ 360px
+=========================== */
+@media (max-width: 360px) {
+    .extra-1 img.img-fluid {
+        width: 95px;
+        height: 95px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: 14.5px;
+    }
+
+    .extra-1 p.box-desc {
+        font-size: 12px;
+    }
+
+    .extra-1 .image-box {
+        padding: 12px 14px;
+    }
+}
+
+
+/* ===========================
+   STUDENT LIFE PAGE — COMPLETE RESPONSIVE SYSTEM
+   Covers: 360px → 1800px+ and zoom 50%–150%
+=========================== */
+
+/* ── Section spacing ── */
+.section.student-1.py-5 {
+    padding-top: clamp(28px, 5vw, 60px) !important;
+    padding-bottom: clamp(28px, 5vw, 60px) !important;
+}
+
+/* ── Each box card ── */
+.student-1 .box {
+    background: #fff;
+    padding: clamp(16px, 2.2vw, 28px);
+    border-radius: 20px;
+    border-left: 8px solid #072C4C !important;
+    border: 2px solid #072C4C;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.student-1 .box:hover {
+    box-shadow: 6px 6px 0px #072C4C;
+    transform: translateY(-2px);
+}
+
+.student-1 .box:nth-child(even) {
+    border-left: 8px solid #C89B3C !important;
+    border: 2px solid #C89B3C;
+}
+
+.student-1 .box:nth-child(even):hover {
+    box-shadow: 6px 6px 0px #C89B3C;
+}
+
+/* ── Box title ── */
+.student-1 h2.box-title {
+    font-size: clamp(18px, 2vw, 28px);
+    font-weight: 700;
+    color: #072C4C;
+    margin-bottom: clamp(8px, 1vw, 14px);
+    line-height: 1.3;
+}
+
+.student-1 .box:nth-child(even) h2.box-title {
+    color: #b8862e;
+}
+
+/* ── Description text ── */
+.student-1 p.box-desc {
+    text-align: justify;
+    font-size: clamp(13.5px, 1.05vw, 16px);
+    line-height: 1.85;
+    margin-bottom: 0;
+    color: #333;
+}
+
+/* ── mt-4 spacing on boxes ── */
+.student-1 .box.mt-4 {
+    margin-top: clamp(16px, 2.5vw, 28px) !important;
+}
+
+/* ===========================
+   ZOOM-OUT SAFE — ≥ 1400px
+=========================== */
+@media (min-width: 1400px) {
+    .student-1 .box {
+        padding: 30px 34px;
+    }
+
+    .student-1 h2.box-title {
+        font-size: clamp(22px, 1.7vw, 30px);
+    }
+
+    .student-1 p.box-desc {
+        font-size: clamp(15px, 0.95vw, 17px);
+        line-height: 1.9;
+    }
+}
+
+/* ===========================
+   VERY WIDE — ≥ 1800px (extreme zoom-out)
+=========================== */
+@media (min-width: 1800px) {
+    .student-1 .box {
+        padding: 34px 40px;
+    }
+
+    .student-1 h2.box-title {
+        font-size: 30px;
+    }
+
+    .student-1 p.box-desc {
+        font-size: 17px;
+    }
+}
+
+/* ===========================
+   TABLET PORTRAIT — ≤ 991px
+=========================== */
+@media (max-width: 991px) {
+    .section.student-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .student-1 .box {
+        padding: clamp(14px, 2vw, 22px);
+        border-radius: 16px;
+    }
+
+    .student-1 h2.box-title {
+        font-size: clamp(17px, 2.4vw, 22px);
+    }
+
+    .student-1 p.box-desc {
+        font-size: clamp(13px, 1.5vw, 15px);
+        line-height: 1.8;
+    }
+
+    .student-1 .box.mt-4 {
+        margin-top: 18px !important;
+    }
+}
+
+/* ===========================
+   MOBILE — ≤ 767px
+=========================== */
+@media (max-width: 767px) {
+    .section.student-1.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .student-1 .box {
+        padding: 16px 18px;
+        border-radius: 14px;
+        border-left-width: 6px !important;
+    }
+
+    .student-1 h2.box-title {
+        font-size: clamp(16px, 4vw, 20px);
+        margin-bottom: 10px;
+    }
+
+    .student-1 p.box-desc {
+        font-size: 13.5px;
+        line-height: 1.75;
+    }
+
+    .student-1 .box.mt-4 {
+        margin-top: 14px !important;
+    }
+}
+
+/* ===========================
+   SMALL PHONES — ≤ 575px
+=========================== */
+@media (max-width: 575px) {
+    .section.student-1.py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .student-1 .box {
+        padding: 14px 16px;
+        border-radius: 12px;
+        border-left-width: 5px !important;
+    }
+
+    .student-1 h2.box-title {
+        font-size: clamp(15px, 4.5vw, 18px);
+        margin-bottom: 8px;
+    }
+
+    .student-1 p.box-desc {
+        font-size: 13px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .student-1 .box.mt-4 {
+        margin-top: 12px !important;
+    }
+}
+
+/* ===========================
+   VERY SMALL PHONES — ≤ 390px
+=========================== */
+@media (max-width: 390px) {
+    .student-1 .box {
+        padding: 12px 14px;
+        border-radius: 10px;
+    }
+
+    .student-1 h2.box-title {
+        font-size: 15px;
+    }
+
+    .student-1 p.box-desc {
+        font-size: 12.5px;
+    }
+
+    .student-1 .box.mt-4 {
+        margin-top: 10px !important;
+    }
+}
+
+/* ===========================
+   TINY PHONES — ≤ 360px
+=========================== */
+@media (max-width: 360px) {
+    .student-1 .box {
+        padding: 11px 12px;
+    }
+
+    .student-1 h2.box-title {
+        font-size: 14.5px;
+    }
+
+    .student-1 p.box-desc {
+        font-size: 12px;
     }
 }
