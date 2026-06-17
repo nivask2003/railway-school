@@ -62,10 +62,9 @@ function template_header(){
                                         data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
                                     <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
                                         <li><a class="dropdown-item" href="academics-overview.php">Academics Overview</a></li>
-                                        <li><a class="dropdown-item" href="management.php">School Management</a></li>
-                                        <li><a class="dropdown-item" href="principal-message.php">Principal's Message</a></li>
-                                        <li><a class="dropdown-item" href="administrative-officer.php">Administrative Officer's Message</a></li>
-                                        <li><a class="dropdown-item" href="academic-coordinator.php">Academic Coordinator's Message</a></li>
+                                        <li><a class="dropdown-item" href="curriculam.php">Curriculam</a></li>
+                                        <li><a class="dropdown-item" href="extra-curricular.php">Extra Curricular</a></li>
+                                        <li><a class="dropdown-item" href="student-life.php">Student Life</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">

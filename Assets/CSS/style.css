@@ -2274,3 +2274,1092 @@ section.about-3 {
 .academics-2 img.img-fluid {
     border-radius: 20px;
 }
+/* ===========================
+   ACADEMICS OVERVIEW – BASE ENHANCEMENTS
+=========================== */
+
+/* Section heading description */
+.academics-1 .heading-center .section-desc {
+    font-size: clamp(14px, 1.1vw, 16px);
+    line-height: 1.85;
+    text-align: center;
+    max-width: 860px;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+/* Row gap between icon-box rows */
+.academics-1 .row {
+    row-gap: 24px;
+}
+
+/* Icon box title & desc sizing */
+.academics-1 h4.icon-box-title {
+    font-size: clamp(16px, 1.4vw, 20px);
+    margin-bottom: 8px;
+}
+
+.academics-1 p.icon-box-desc {
+    font-size: clamp(13px, 1vw, 15px);
+    line-height: 1.8;
+}
+
+/* academics-2 layout */
+.academics-2 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.academics-2 .section-title {
+    font-size: clamp(22px, 2.8vw, 38px);
+}
+
+.academics-2 li.list {
+    font-size: clamp(13px, 1.05vw, 15.5px);
+    line-height: 1.6;
+}
+
+.academics-2 img.img-fluid {
+    width: 100%;
+    height: clamp(240px, 32vw, 460px);
+    object-fit: cover;
+}
+
+/* ===========================
+   ACADEMICS – TABLETS (≤ 991px)
+=========================== */
+@media (max-width: 991px) {
+    .academics-1 .heading-center .section-desc {
+        font-size: clamp(13.5px, 1.6vw, 15.5px);
+        text-align: center;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: clamp(15px, 2vw, 18px);
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: clamp(13px, 1.4vw, 14.5px);
+    }
+
+    .academics-2 img.img-fluid {
+        height: clamp(220px, 40vw, 380px);
+    }
+
+    .academics-2 .section-title {
+        font-size: clamp(20px, 3.5vw, 32px);
+    }
+
+    .academics-2 li.list {
+        font-size: clamp(13px, 1.5vw, 15px);
+    }
+}
+
+/* ===========================
+   ACADEMICS – MOBILE LANDSCAPE / LARGE PHONES (≤ 767px)
+=========================== */
+@media (max-width: 767px) {
+    /* Stack text above image in academics-2 */
+    .academics-2 .row {
+        flex-direction: column;
+    }
+
+    .academics-2 img.img-fluid {
+        height: clamp(200px, 55vw, 340px);
+    }
+
+    .academics-2 .section-title {
+        font-size: clamp(19px, 5vw, 28px);
+        margin-top: 0.5rem;
+    }
+
+    .academics-2 li.list {
+        font-size: 14.5px;
+    }
+
+    .academics-1 .heading-center .section-desc {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: clamp(15px, 4vw, 18px);
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: 13.5px;
+        text-align: left;
+    }
+}
+
+/* ===========================
+   ACADEMICS – SMALL PHONES (≤ 575px)
+=========================== */
+@media (max-width: 575px) {
+    .academics-1 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .academics-2 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .academics-1 .icon-box {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .academics-1 .icon-circle {
+        height: 54px;
+        width: 54px;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: 15.5px;
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: 13px;
+        line-height: 1.75;
+    }
+
+    .academics-2 img.img-fluid {
+        height: clamp(180px, 60vw, 300px);
+        border-radius: 14px;
+    }
+
+    .academics-2 .section-title {
+        font-size: clamp(18px, 5.5vw, 24px);
+    }
+
+    .academics-2 li.list {
+        font-size: 13.5px;
+        gap: 8px;
+    }
+
+    .academics-2 .icon-list i {
+        font-size: 17px;
+    }
+}
+
+/* ===========================
+   ACADEMICS – VERY SMALL PHONES (≤ 360px)
+=========================== */
+@media (max-width: 360px) {
+    .academics-1 .icon-circle {
+        height: 48px;
+        width: 48px;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: 14.5px;
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: 12.5px;
+    }
+
+    .academics-2 img.img-fluid {
+        height: 200px;
+    }
+
+    .academics-2 .section-title {
+        font-size: 18px;
+    }
+
+    .academics-2 li.list {
+        font-size: 13px;
+    }
+}
+
+/* ===========================
+   ACADEMICS – ZOOM-OUT SAFETY (≥ 1400px)
+=========================== */
+@media (min-width: 1400px) {
+    .academics-1 .heading-center .section-desc {
+        font-size: clamp(15px, 1vw, 17px);
+        line-height: 1.9;
+        max-width: 980px;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: clamp(18px, 1.3vw, 22px);
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: clamp(14px, 0.95vw, 16px);
+        line-height: 1.85;
+    }
+
+    .academics-2 img.img-fluid {
+        height: clamp(380px, 30vw, 520px);
+    }
+
+    .academics-2 .section-title {
+        font-size: clamp(28px, 2.5vw, 40px);
+    }
+
+    .academics-2 li.list {
+        font-size: clamp(14px, 1vw, 16px);
+    }
+}
+
+/* ===========================
+   ACADEMICS – VERY WIDE / EXTREME ZOOM-OUT (≥ 1800px)
+=========================== */
+@media (min-width: 1800px) {
+    .academics-1 .heading-center .section-desc {
+        font-size: 17px;
+        max-width: 1100px;
+    }
+
+    .academics-1 h4.icon-box-title {
+        font-size: 22px;
+    }
+
+    .academics-1 p.icon-box-desc {
+        font-size: 16px;
+    }
+
+    .academics-2 img.img-fluid {
+        height: 520px;
+    }
+
+    .academics-2 li.list {
+        font-size: 16px;
+    }
+}
+
+/* ===========================
+   ACADEMICS PAGE BANNER
+=========================== */
+
+.academics-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
+    background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/academic-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.academics-page-banner .banner-content {
+    text-align: center;
+    padding: 0 16px;
+}
+
+.academics-page-banner h2.page-title {
+    font-size: clamp(26px, 4vw, 52px);
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+/* Breadcrumb */
+.academics-page-banner .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.academics-page-banner .breadcrumb-item a {
+    color: #C89B3C;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: clamp(13px, 1vw, 15px);
+    transition: color 0.2s;
+}
+
+.academics-page-banner .breadcrumb-item a:hover {
+    color: #fff;
+}
+
+.academics-page-banner .breadcrumb-item.active {
+    color: #fff;
+    font-size: clamp(13px, 1vw, 15px);
+}
+
+.academics-page-banner .breadcrumb-item + .breadcrumb-item::before {
+    color: #C89B3C;
+}
+
+/* ── Banner Responsive ── */
+
+/* Tablets (≤ 991px) */
+@media (max-width: 991px) {
+    .academics-page-banner {
+        height: clamp(130px, 28vh, 260px);
+    }
+
+    .academics-page-banner h2.page-title {
+        font-size: clamp(24px, 5vw, 40px);
+    }
+}
+
+/* Mobile (≤ 767px) */
+@media (max-width: 767px) {
+    .academics-page-banner {
+        height: clamp(120px, 25vh, 220px);
+    }
+
+    .academics-page-banner h2.page-title {
+        font-size: clamp(22px, 6vw, 34px);
+    }
+}
+
+/* Small phones (≤ 575px) */
+@media (max-width: 575px) {
+    .academics-page-banner {
+        height: clamp(110px, 22vh, 180px);
+        min-height: 110px;
+    }
+
+    .academics-page-banner h2.page-title {
+        font-size: clamp(20px, 7vw, 28px);
+        margin-bottom: 6px;
+    }
+
+    .academics-page-banner .breadcrumb-item a,
+    .academics-page-banner .breadcrumb-item.active {
+        font-size: 12.5px;
+    }
+}
+
+/* Zoom-out safety (≥ 1400px) */
+@media (min-width: 1400px) {
+    .academics-page-banner {
+        height: clamp(200px, 28vh, 360px);
+    }
+
+    .academics-page-banner h2.page-title {
+        font-size: clamp(36px, 3.5vw, 58px);
+    }
+
+    .academics-page-banner .breadcrumb-item a,
+    .academics-page-banner .breadcrumb-item.active {
+        font-size: clamp(14px, 1vw, 16px);
+    }
+}
+
+/* Very wide (≥ 1800px) */
+@media (min-width: 1800px) {
+    .academics-page-banner {
+        height: 360px;
+    }
+
+    .academics-page-banner h2.page-title {
+        font-size: 58px;
+    }
+}
+
+/* Curriculam Page */
+
+section.curriculam-1.py-5 {
+    background: #072c4c1f;
+}
+
+.curriculam-1 p.section-desc {
+    text-align: justify;
+}
+
+.curriculam-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.curriculam-2 .box{
+    background-color: #072C4C;
+    color: #fff;
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.curriculam-2 .box .box-desc{
+    text-align: justify;
+}
+
+.accordion-group { 
+  width: 100%; 
+  max-width: 550px; 
+  box-sizing: 
+  border-box; 
+  font-size: 14px; 
+}
+.acc-item { 
+  background: #ffffff; 
+  border: 1px solid #072c4c; 
+  overflow: hidden; 
+  box-shadow: 0 0px calc(0px * 2) rgba(0, 0, 0, 0.15); 
+  transition: all 0.3s ease; 
+}
+
+.acc-item { 
+  border-radius: 12px; 
+  margin-bottom: 12px; 
+}
+.acc-item:last-child { 
+  margin-bottom: 0; 
+}
+summary { 
+  padding: 16px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  cursor: pointer; 
+  list-style: none; 
+  font-weight: 600; 
+  color: #1e293b; 
+  transition: background 0.2s ease; 
+  font-family: "Playfair Display", serif;
+  background-color: #c89b3c7a;
+}
+summary:hover { 
+  background: #c89b3c;
+  color: #fff;
+ }
+summary::-webkit-details-marker { 
+  display: none; 
+}
+.acc-icon { 
+  color: #072C4C; 
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+summary:hover .acc-icon{
+    color: #fff;
+}
+.content-wrapper { 
+  height: 0; 
+  overflow: hidden; 
+  transition: height 0.3s ease; 
+  background: #ffffff; 
+}
+.content-body { 
+  padding: 20px; 
+  color: #64748b; 
+  line-height: 1.6; 
+}
+.acc-item.is-open .acc-icon { 
+  transform: rotate(45deg); 
+}
+
+.curriculam-2 span {
+    font-size: 20px;
+}
+
+.curriculam-2 p.content-desc {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: justify;
+}
+
+.curriculam-2 .row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* ===========================
+   CURRICULUM PAGE – BASE IMPROVEMENTS
+   (zoom-safe fluid sizing)
+=========================== */
+
+/* Banner reuses .academics-page-banner pattern */
+.academics-page-banner {
+    background-image: linear-gradient(135deg, #072C4C, #0000002b), url(../Images/academic-bg.webp);
+}
+
+/* Section 1 – intro row alignment */
+.curriculam-1 .row {
+    align-items: center;
+    row-gap: 30px;
+}
+
+.curriculam-1 img.img-fluid {
+    width: 100%;
+    height: clamp(240px, 35vw, 520px);
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.curriculam-1 p.section-desc {
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.85;
+}
+
+/* Section 2 – accordion layout */
+.curriculam-2 .row {
+    align-items: flex-start;
+    row-gap: 24px;
+    column-gap: 0;
+}
+
+.curriculam-2 .box {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.curriculam-2 .box .box-desc {
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.85;
+}
+
+.accordion-group {
+    max-width: 100%;
+    width: 100%;
+}
+
+.curriculam-2 span {
+    font-size: clamp(15px, 1.4vw, 20px);
+}
+
+/* ===========================
+   CURRICULUM – LARGE SCREENS / ZOOM-OUT (≥ 1400px)
+=========================== */
+@media (min-width: 1400px) {
+    .curriculam-1 img.img-fluid {
+        height: clamp(420px, 32vw, 580px);
+    }
+
+    .curriculam-1 p.section-desc {
+        font-size: clamp(15px, 0.95vw, 17px);
+        line-height: 1.9;
+    }
+
+    .curriculam-2 .box {
+        padding: 36px;
+    }
+
+    .curriculam-2 .box .box-desc {
+        font-size: clamp(15px, 0.95vw, 17px);
+        line-height: 1.9;
+    }
+
+    .curriculam-2 span {
+        font-size: clamp(17px, 1.3vw, 22px);
+    }
+
+    .curriculam-2 p.content-desc {
+        font-size: clamp(14px, 0.9vw, 16px);
+    }
+
+    summary {
+        padding: 18px 20px;
+    }
+}
+
+/* ===========================
+   CURRICULUM – VERY WIDE / EXTREME ZOOM-OUT (≥ 1800px)
+=========================== */
+@media (min-width: 1800px) {
+    .curriculam-1 p.section-desc {
+        font-size: 17px;
+    }
+
+    .curriculam-1 img.img-fluid {
+        height: 580px;
+    }
+
+    .curriculam-2 .box .box-desc {
+        font-size: 17px;
+    }
+
+    .curriculam-2 span {
+        font-size: 22px;
+    }
+
+    .curriculam-2 p.content-desc {
+        font-size: 16px;
+    }
+}
+
+/* ===========================
+   CURRICULUM – TABLETS (≤ 991px)
+=========================== */
+@media (max-width: 991px) {
+    .curriculam-1 .row {
+        row-gap: 24px;
+    }
+
+    .curriculam-1 img.img-fluid {
+        height: clamp(220px, 42vw, 400px);
+    }
+
+    .curriculam-1 p.section-desc {
+        font-size: clamp(14px, 1.6vw, 16px);
+    }
+
+    .curriculam-2 .row {
+        row-gap: 20px;
+    }
+
+    .curriculam-2 .box {
+        padding: 24px;
+    }
+
+    .curriculam-2 span {
+        font-size: clamp(14px, 2vw, 18px);
+    }
+
+    .accordion-group {
+        max-width: 100%;
+    }
+
+    /* Stack box + accordion vertically on tablet if needed */
+    .curriculam-2 .col-12.col-md-4 {
+        order: 2;
+    }
+
+    .curriculam-2 .col-12.col-md-6 {
+        order: 1;
+    }
+}
+
+/* ===========================
+   CURRICULUM – MOBILE (≤ 767px)
+=========================== */
+@media (max-width: 767px) {
+    .curriculam-1 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .curriculam-1 .row {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+
+    .curriculam-1 img.img-fluid {
+        height: clamp(200px, 55vw, 360px);
+        width: 100%;
+    }
+
+    .curriculam-1 p.section-desc {
+        font-size: 14.5px;
+        line-height: 1.8;
+    }
+
+    .curriculam-2 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .curriculam-2 .row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .curriculam-2 .col-12.col-md-4,
+    .curriculam-2 .col-12.col-md-6 {
+        order: unset;
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .curriculam-2 .box {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .curriculam-2 .box .box-desc {
+        font-size: 14px;
+    }
+
+    .curriculam-2 span {
+        font-size: 15px;
+    }
+
+    .curriculam-2 p.content-desc {
+        font-size: 13.5px;
+    }
+
+    summary {
+        padding: 14px 16px;
+    }
+
+    .acc-item {
+        margin-bottom: 10px;
+    }
+
+    .content-body {
+        padding: 16px;
+    }
+}
+
+/* ===========================
+   CURRICULUM – SMALL PHONES (≤ 575px)
+=========================== */
+@media (max-width: 575px) {
+    .curriculam-1 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .curriculam-1 img.img-fluid {
+        height: clamp(180px, 58vw, 300px);
+        border-radius: 14px;
+    }
+
+    .curriculam-1 p.section-desc {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .curriculam-2 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+    .curriculam-2 .box {
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .curriculam-2 .box .box-desc {
+        font-size: 13.5px;
+        text-align: left;
+    }
+
+    .curriculam-2 span {
+        font-size: 14.5px;
+    }
+
+    .curriculam-2 p.content-desc {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    summary {
+        padding: 12px 14px;
+    }
+
+    .content-body {
+        padding: 14px;
+    }
+
+    .acc-item {
+        border-radius: 10px;
+        margin-bottom: 8px;
+    }
+}
+
+/* ===========================
+   CURRICULUM – VERY SMALL PHONES (≤ 360px)
+=========================== */
+@media (max-width: 360px) {
+    .curriculam-1 img.img-fluid {
+        height: 180px;
+    }
+
+    .curriculam-1 p.section-desc {
+        font-size: 13.5px;
+    }
+
+    .curriculam-2 .box {
+        padding: 14px;
+    }
+
+    .curriculam-2 .box .box-desc {
+        font-size: 13px;
+    }
+
+    .curriculam-2 span {
+        font-size: 14px;
+    }
+
+    .curriculam-2 p.content-desc {
+        font-size: 12.5px;
+    }
+
+    summary {
+        padding: 11px 12px;
+    }
+}
+
+/* ===========================
+   CURRICULUM PAGE BANNER – responsive
+   (mirrors the academics-page-banner pattern)
+=========================== */
+.academics-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(140px, 30vh, 320px);
+    min-height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    section.curriculam-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+}
+
+/* Extra Curricular */
+
+
+.extra-1 img.img-fluid {
+    border-radius: 80px;
+}
+
+.extra-1 .image-box {
+    background: #c89b3c7a;
+    padding: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 100%;
+    box-shadow: 9px 7px 0px #072c4c;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: stretch;
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – BASE / FLUID
+=========================== */
+
+.extra-1 .image-box .row {
+    align-items: center;
+    row-gap: 16px;
+    width: 100%;
+}
+
+.extra-1 .image-box .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.extra-1 img.img-fluid {
+    width: 100%;
+    height: clamp(100px, 14vw, 180px);
+    object-fit: cover;
+    border-radius: 80px;
+    display: block;
+}
+
+.extra-1 .image-box .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extra-1 h4.box-title {
+    font-size: clamp(16px, 1.5vw, 22px);
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.extra-1 p.box-desc {
+    font-size: clamp(13px, 1vw, 15px);
+    line-height: 1.75;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.extra-1 .row.mt-4 {
+    margin-top: clamp(16px, 2.5vw, 24px) !important;
+}
+
+.extra-1 .image-box:hover {
+    box-shadow: 9px 7px 0px #C89B3C;
+    transform: translateY(-3px);
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – ROW GAP FIX
+   (the two .col-md-6 boxes in each row need gap when stacked)
+=========================== */
+.extra-1 > .container > .row {
+    row-gap: 24px;
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – LARGE (≥ 1400px / zoom-out)
+=========================== */
+@media (min-width: 1400px) {
+    .extra-1 img.img-fluid {
+        height: clamp(160px, 12vw, 210px);
+    }
+
+    .extra-1 h4.box-title {
+        font-size: clamp(18px, 1.3vw, 24px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: clamp(14px, 0.9vw, 16px);
+        line-height: 1.85;
+    }
+
+    .extra-1 .image-box {
+        padding: 24px;
+    }
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – VERY WIDE (≥ 1800px)
+=========================== */
+@media (min-width: 1800px) {
+    .extra-1 img.img-fluid {
+        height: 210px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: 24px;
+    }
+
+    .extra-1 p.box-desc {
+        font-size: 16px;
+    }
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – TABLET (≤ 991px)
+=========================== */
+@media (max-width: 991px) {
+    .extra-1 img.img-fluid {
+        height: clamp(90px, 16vw, 150px);
+        border-radius: 60px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: clamp(15px, 2vw, 19px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: clamp(13px, 1.4vw, 15px);
+    }
+
+    .extra-1 .image-box {
+        padding: 16px;
+    }
+
+    .extra-1 .row.mt-4 {
+        margin-top: 20px !important;
+    }
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – PHABLET / SMALL TABLET (≤ 767px)
+=========================== */
+@media (max-width: 767px) {
+    .extra-1 .col-12.col-md-6.col-lg-6 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .extra-1 img.img-fluid {
+        height: clamp(100px, 28vw, 170px);
+        border-radius: 50px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: clamp(15px, 3.5vw, 18px);
+    }
+
+    .extra-1 p.box-desc {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .extra-1 .image-box {
+        padding: 16px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .extra-1 .row.mt-4 {
+        margin-top: 16px !important;
+    }
+
+    .extra-1 .heading-center {
+        margin-bottom: 24px;
+    }
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – MOBILE (≤ 575px)
+=========================== */
+@media (max-width: 575px) {
+    section.extra-1.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* Stack image above text on narrow screens */
+    .extra-1 .image-box .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .extra-1 .image-box .image,
+    .extra-1 .image-box .content {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .extra-1 img.img-fluid {
+        height: clamp(130px, 45vw, 200px);
+        width:  clamp(130px, 45vw, 200px);
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .extra-1 p.box-desc {
+        text-align: left;
+        font-size: 13.5px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .extra-1 .image-box {
+        padding: 18px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .extra-1 .row.mt-4 {
+        margin-top: 14px !important;
+    }
+}
+
+/* ===========================
+   EXTRA-CURRICULAR – VERY SMALL (≤ 360px)
+=========================== */
+@media (max-width: 360px) {
+    .extra-1 img.img-fluid {
+        height: 120px;
+        width: 120px;
+    }
+
+    .extra-1 h4.box-title {
+        font-size: 15px;
+    }
+
+    .extra-1 p.box-desc {
+        font-size: 13px;
+    }
+
+    .extra-1 .image-box {
+        padding: 14px;
+    }
+}

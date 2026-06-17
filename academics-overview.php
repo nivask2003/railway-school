@@ -22,6 +22,14 @@
 </head>
 <body>
     <?=template_header()?>
+
+    <!-- Page Banner -->
+    <section class="academics-page-banner">
+        <div class="banner-content">
+            <h2 class="page-title">Academics Overview</h2>
+        </div>
+    </section>
+
     <section class="academics-1 py-5">
         <div class="container">
             <div class="heading-center">
@@ -102,7 +110,7 @@
         </div>
         
     </section>
-    <section class="academics-2 py-5">
+    <section class="academics-2 py-5" style="background-color:">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
@@ -114,12 +122,34 @@
                         <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Skill-based educational practices</li>
                         <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Activity and project-based learning</li>
                         <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Continuous evaluation methods</li>
-                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Preparation for competitive examinations/li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Preparation for competitive examinations</li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <img src="Assets/Images/cbse.webp" alt="" class="img-fluid">
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="academics-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets/Images/teaching.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">Teaching Methodologies</span>
+                    <h2 class="section-title">Innovative Approaches to Learning</h2>
+                    <ul class="icon-list">
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Interactive classroom sessions</li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Activity-based learning methods</li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Visual and digital teaching tools</li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Group discussions and presentations</li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Concept clarity approach</li>
+                        <li class="list"><i class="bi bi-arrow-right-circle-fill"></i>Real-life application of knowledge</li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </section>
