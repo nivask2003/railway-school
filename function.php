@@ -159,7 +159,7 @@ function template_footer(){
                                 <ul class="icon-list">
                                     <li class="list"><i class="bi bi-arrow-up-right-circle-fill"></i><a href="index.php">Home</a></li>
                                     <li class="list"><i class="bi bi-arrow-up-right-circle-fill"></i><a href="about.php">About</a></li>
-                                    <li class="list"><i class="bi bi-arrow-up-right-circle-fill"></i><a href="academics.php">Academics</a></li>
+                                    <li class="list"><i class="bi bi-arrow-up-right-circle-fill"></i><a href="academics-overview.php">Academics</a></li>
                                     <li class="list"><i class="bi bi-arrow-up-right-circle-fill"></i><a href="facilities.php">Facilities</a></li>
                                 </ul>
                             </div>
@@ -178,7 +178,7 @@ function template_footer(){
                             <i class="bi bi-geo-fill"></i>
                         </div>
                         <h2 class="footer-headings">Address</h2>
-                        <p class="address-desc text-center">Railway Higher Secondary School (CBSE), Madurai, Tamil Nadu India</p>
+                        <p class="address-desc text-center">Railway Higher Secondary School, Railway Colony, Madurai -625016</p>
                     </div>
                     <div class="col-12 col-md-4 col-lg-4">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62881.04771547929!2d78.0525172616815!3d9.928504684231331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf7d19c3d23f%3A0x28ff3cbe5b3c5dd6!2sRailway%20Higher%20Secondary%20School%20(CBSE)!5e0!3m2!1sen!2sin!4v1780928581079!5m2!1sen!2sin" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

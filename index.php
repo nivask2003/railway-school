@@ -20,7 +20,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="Assets/Images/favicon-16x16.png">
 <link rel="manifest" href="Assets/Images/site.webmanifest">
 </head>
-<body>
+<body class="home">
     <?=template_header()?>
 
     <section class="hero-section">
