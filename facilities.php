@@ -114,7 +114,7 @@
             </div>
         </div>
     </section>
-    <section class="fac-3">
+    <!-- <section class="fac-3">
         <div class="container">
             <div class="row align-items-center g-4">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <?=template_footer()?>
 

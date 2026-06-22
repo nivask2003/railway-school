@@ -34,7 +34,7 @@
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <img src="Assets/Images/principal.webp" alt="Dr. R. Rajalakshmi – Principal" class="img-fluid">
                     <div class="heading-center">
-                        <h4 class="section-title">Dr. R. Rajalakshmi</h4>
+                        <h4 class="section-title">A. Anjammal</h4>
                         <span class="badge">Principal</span>
                     </div>
                 </div>

@@ -24,7 +24,7 @@
     <?=template_header()?>
     <!-- Page Banner -->
     <div class="principal-page-banner">
-        <h2 class="page-title text-white">Hon. Divisional Railway Manager's Message</h2>
+        <h2 class="page-title text-white">Correspondent's Message</h2>
     </div>
 
     <section class="principal-1 py-5">
@@ -32,18 +32,18 @@
             <div class="row">
                 <!-- Photo + name -->
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
-                    <img src="Assets/Images/admin.webp" alt="Mr. S. Kumar – Administrative Officer" class="img-fluid">
+                    <img src="Assets/Images/correspondent.webp" alt="Dr. R. Rajalakshmi – Principal" class="img-fluid">
                     <div class="heading-center">
-                        <h4 class="section-title">Mr. S. Kumar</h4>
-                        <span class="badge">Hon. Divisional Railway Manager</span>
+                        <h4 class="section-title">Name Unknown</h4>
+                        <span class="badge">Hon. Divisional Personnel Officer<br>& Correspondent</span>
                     </div>
                 </div>
 
                 <!-- Message text -->
                 <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
-                    <h2 class="section-title">Hon. Divisional Railway Manager Message</h2>
-                    <p class="section-desc">The administrative leadership of Railway Higher Secondary School, Madurai, plays a vital role in maintaining the institution’s long-standing tradition of educational excellence, discipline, and holistic student development. With a strong commitment to creating a well-organized, student-friendly, and progressive learning environment, the administration works diligently to ensure that every aspect of the school functions efficiently and effectively. From academic planning and infrastructure management to student welfare and parent engagement, the administrative team provides the foundation that supports the school’s mission of delivering quality education and nurturing responsible future citizens.</p>
-                    <p class="section-desc">The administration believes that a positive educational environment is built through careful planning, transparency, teamwork, and continuous improvement. By implementing structured systems and effective management practices, the institution ensures the smooth conduct of academic activities, co-curricular programmes, examinations, and campus operations throughout the academic year. Every effort is made to provide students with a safe, disciplined, and supportive atmosphere that encourages learning, personal growth, and character development.</p>
+                    <h2 class="section-title">Correspondent Message</h2>
+                    <p class="section-desc">Railway Higher Secondary School, Madurai, draws inspiration from the enduring legacy of the Indian Railways, a symbol of unity, progress, and service to the nation. Just as the railway network connects people and places, the institution believes that education serves as a journey that shapes lives, builds character, and prepares individuals for the future. The school remains committed to providing quality education rooted in discipline, academic excellence, and strong moral values. Every student is encouraged to develop intellectual growth, creativity, leadership qualities, and a sense of responsibility through a balanced and value-based educational approach.</p>
+                    <p class="section-desc">With the guidance of dedicated faculty members and modern teaching methodologies, the institution nurtures confidence, communication skills, critical thinking, and holistic development among students. Equal opportunities are provided through academics, co-curricular activities, sports, and character-building programmes. The continued support of parents, teachers, and well-wishers forms the foundation of the school’s success. Together, they inspire students to dream confidently, work diligently, uphold discipline and values, and contribute meaningfully to society and the nation.</p>
                 </div>
             </div>
         </div>

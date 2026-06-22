@@ -101,7 +101,7 @@
                 <span class="badge">Our Impact</span>
                 <h2 class="section-title">Excellence, Growth & Achievement</h2>
                 <p class="section-desc">From academic achievements to holistic growth, our milestones reflect a commitment to shaping confident and responsible future leaders.</p>
-                <a href="about.php" class="btn">More About Us</a>
+                <a href="about.php" class="btn">More About us</a>
             </div>
             <div class="col-12 col-md-8 col-lg-8">
                 <img src="Assets/Images/counter.webp" alt="" class="img-fluid">
@@ -231,6 +231,53 @@
                 </div>
             </div>
         </div>
+    </div>
+   </section>
+
+   <section class="home-7-new py-5">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">Leadership Team</span>
+            <h2 class="section-title">Guiding the Institution Forward</h2>
+        </div>
+        <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/admin.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Mr. S. Kumar</h3>
+                            <span class="badge">Hon. Divisional Railway Manager</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/correspondent.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Name Unknown</h3>
+                            <span class="badge">Hon. Divisional Personnel Officer<br>& Correspondent</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="150">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/principal.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">A. Anjammal</h3>
+                            <span class="badge">Principal</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
     </div>
    </section>
 

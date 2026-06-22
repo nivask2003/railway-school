@@ -4183,3 +4183,317 @@ section.home-8 {
 .home section.home-8 {
     display: block;
 }
+
+
+
+/* ── Leadership Team Section ── */
+.home-7-new {
+    padding: clamp(1.5rem, 4vw, 3rem) 0;
+}
+
+.home-7-new .card {
+    border-radius: 20px;
+    background-color: rgba(200, 155, 60, 0.48);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow: hidden; /* keeps image clipped at all zoom levels */
+    height: 100%;     /* equal card heights in same row */
+}
+
+.home-7-new .card .card-image {
+    overflow: hidden;
+    /* Fixed aspect ratio prevents image collapse at 75% zoom */
+    aspect-ratio: 1 / 1.05;
+}
+
+.home-7-new .card img.img-fluid {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.home-7-new .card .card-content {
+    padding: clamp(12px, 2.5vw, 20px);
+}
+
+.home-7-new .card .name {
+    /* font-size: clamp(0.9rem, 2vw, 1.1rem); */
+    font-weight: 700;
+    margin-bottom: 6px;
+    /* color: inherit; */
+}
+
+.home-7-new .card .badge {
+    color: #072C4C;
+    /* font-size: clamp(10px, 1.4vw, 12.5px); */
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+/* Hover states */
+.home-7-new .card:hover {
+    background-color: #072C4C;
+    color: #fff;
+}
+
+.home-7-new .card:hover img.img-fluid {
+    transform: scale(1.1);
+}
+
+.home-7-new .card:hover .badge {
+    color: #C89B3C;
+}
+
+/* ── Responsive grid fixes ── */
+
+/* Mobile portrait: single column */
+@media (max-width: 575px) {
+    .home-7-new .col-12 {
+        margin-bottom: 1rem;
+    }
+    .home-7-new .card .card-image {
+        aspect-ratio: 4 / 3; /* wider crop on small screens */
+    }
+}
+
+/* Tablet (576–767px): 2-column, 3rd card centred */
+@media (min-width: 576px) and (max-width: 767px) {
+    .home-7-new .row {
+        justify-content: center;
+    }
+    .home-7-new .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    /* Centre the lone 3rd card */
+    .home-7-new .col-md-4:last-child:nth-child(odd) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Large screens: equal height rows via flex */
+@media (min-width: 768px) {
+    .home-7-new .row {
+        align-items: stretch;
+    }
+    .home-7-new [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* High zoom (≥125%) — prevent horizontal scroll */
+@media (max-width: 900px) {
+    .home-7-new .card .card-image {
+        aspect-ratio: 1 / 0.95;
+    }
+}
+
+.mand-1 img{
+    border-radius: 20px;
+    border: 2px solid #072C4C;
+}
+
+.mand-1 .heading-center h3{
+        background: #c89b3c7a;
+    padding: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: 100%;
+    box-shadow: 9px 7px 0px #072c4c;
+    transition: 0.3s ease-in-out;
+}
+
+/* ===========================
+   MANDATORY PUBLIC DISCLOSURE — RESPONSIVE
+=========================== */
+
+/* Base: ensure images never overflow */
+.mand-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Add row-gap so stacked columns breathe */
+.mand-1 .row {
+    row-gap: 24px;
+}
+
+/* h3 title block: fluid font & padding */
+.mand-1 .heading-center h3 {
+    font-size: clamp(15px, 2vw, 20px);
+    padding: clamp(12px, 2vw, 20px);
+    width: 100%;
+    text-align: center;
+    word-break: break-word;
+}
+
+/* Section heading badge & title */
+.mand-1 span.badge {
+    font-size: clamp(16px, 2.5vw, 26px);
+}
+
+.mand-1 .section-title {
+    font-size: clamp(20px, 3.5vw, 42px);
+    text-align: center;
+}
+
+/* ── Large desktops ≥ 1400px (handles 75% zoom on large monitors) ── */
+@media (min-width: 1400px) {
+    .mand-1 .heading-center h3 {
+        font-size: clamp(17px, 1.4vw, 22px);
+    }
+}
+
+/* ── Tablets ≤ 991px ── */
+@media (max-width: 991px) {
+    .mand-1 .row {
+        row-gap: 20px;
+    }
+
+    .mand-1 .heading-center h3 {
+        font-size: clamp(14px, 2.5vw, 18px);
+        padding: 14px 16px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .mand-1 span.badge {
+        font-size: clamp(15px, 3.5vw, 22px);
+    }
+
+    .mand-1 .section-title {
+        font-size: clamp(18px, 4vw, 32px);
+    }
+
+    /* Stack the affiliation certificate images in a single column on tablet */
+    .mand-1:first-of-type .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 0;
+    }
+}
+
+/* ── Mobile ≤ 767px ── */
+@media (max-width: 767px) {
+    .mand-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .mand-1 .row {
+        row-gap: 18px;
+    }
+
+    .mand-1 .heading-center h3 {
+        font-size: clamp(13px, 4vw, 17px);
+        padding: 12px 14px;
+        border-top-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+        box-shadow: 6px 5px 0px #072c4c;
+    }
+
+    .mand-1 span.badge {
+        font-size: clamp(14px, 4.5vw, 20px);
+    }
+
+    .mand-1 .section-title {
+        font-size: clamp(17px, 5vw, 26px);
+    }
+}
+
+/* ── Small phones ≤ 575px ── */
+@media (max-width: 575px) {
+    .mand-1.py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .mand-1 .row {
+        row-gap: 14px;
+    }
+
+    .mand-1 .heading-center h3 {
+        font-size: clamp(13px, 4.5vw, 16px);
+        padding: 10px 12px;
+        border-top-right-radius: 28px;
+        border-bottom-left-radius: 28px;
+        box-shadow: 5px 4px 0px #072c4c;
+    }
+
+    .mand-1 span.badge {
+        font-size: clamp(14px, 5vw, 18px);
+    }
+
+    .mand-1 .section-title {
+        font-size: clamp(16px, 5.5vw, 22px);
+    }
+
+    /* Prevent images from being too tall on small screens */
+    .mand-1 img {
+        max-height: 320px;
+        object-fit: contain;
+    }
+}
+
+/* ── Very small phones ≤ 390px ── */
+@media (max-width: 390px) {
+    .mand-1 .heading-center h3 {
+        font-size: 13px;
+        padding: 9px 11px;
+    }
+
+    .mand-1 .section-title {
+        font-size: 16px;
+    }
+
+    .mand-1 span.badge {
+        font-size: 14px;
+    }
+
+    .mand-1 img {
+        max-height: 260px;
+    }
+
+    .mand-1.py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
+
+/* ── Tiny phones ≤ 360px ── */
+@media (max-width: 360px) {
+    .mand-1 .heading-center h3 {
+        font-size: 12.5px;
+        padding: 8px 10px;
+    }
+
+    .mand-1 .section-title {
+        font-size: 15px;
+    }
+
+    .mand-1 img {
+        max-height: 230px;
+    }
+}
+
+/* ── Zoom-out safety: 75% zoom on 1920px = ~2560px effective ── */
+@media (min-width: 1800px) {
+    .mand-1 .heading-center h3 {
+        font-size: clamp(18px, 1.2vw, 24px);
+        padding: clamp(18px, 1.5vw, 26px);
+    }
+
+    .mand-1 span.badge {
+        font-size: clamp(22px, 1.8vw, 30px);
+    }
+
+    .mand-1 .section-title {
+        font-size: clamp(30px, 2.5vw, 50px);
+    }
+}
