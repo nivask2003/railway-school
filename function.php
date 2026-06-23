@@ -86,7 +86,10 @@ function template_header(){
                                     <a class="nav-link" href="gallery.php">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="mandatory-public-disclosure.php">Mandatory Public Disclosure</a>
+                                    <a class="nav-link" href="mandatory-public-disclosure.php">Public Disclosure</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pta.php">PTA</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.php">Contact</a>
