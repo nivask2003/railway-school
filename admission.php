@@ -30,12 +30,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <div class="content-1">
-                        <h2 class="section-title">Admission Overview</h2>
-                        <p class="section-desc">Railway Higher Secondary School, Madurai, offers admissions based on eligibility requirements, seat availability, and institutional guidelines. The school follows a transparent and systematic admission process, ensuring fairness and accessibility for all applicants. Students are welcomed into a disciplined, value-based learning environment that promotes academic excellence, character development, and holistic growth, preparing them for future success and responsible citizenship.</p>
-                    </div>
-                    <div class="content-2 mt-4">
-                        <h2 class="section-title">Admission Procedure</h2>
-                        <p class="section-desc">The admission process at Railway Higher Secondary School is designed to be simple, transparent, and convenient for both students and parents. Prospective parents can obtain the application form from the school office and submit it along with the required documents within the specified admission schedule. The school administration provides necessary guidance throughout the enrollment process, ensuring a smooth and hassle-free experience while maintaining fairness and compliance with admission guidelines.</p>
+                        <h2 class="section-title">General</h2>
+                        <p class="section-desc">Railway Higher Secondary School (CBSE), Madurai, is a prestigious educational institution functioning under Southern Railway and affiliated with the Central Board of Secondary Education (CBSE). The school primarily serves the educational needs of the wards of Railway employees while maintaining high standards of academic excellence, discipline, and holistic development. Admissions are offered strictly based on the availability of vacancies and are governed by the guidelines and regulations issued by the Railway Board, Southern Railway, and CBSE from time to time, ensuring a transparent, fair, and systematic admission process.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
@@ -44,30 +40,80 @@
             </div>
         </div>
     </section>
+    <section class="pta-2 py-5">
+        <div class="container">
+            <span class="badge">Priority of Admission</span>
+            <h2 class="section-title">Admission Preference Categories</h2>
+            <div class="pta-table-wrap">
+            <table class="table mt-4">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Eligibility / Admission Criteria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Railway Wards</td>
+                        <td>
+                            <ul>
+                                <li>Children of Serving Railway Employees</li>
+                                <li>Children of Retired Railway Employees</li>
+                                <li>Children of Deceased Railway Employees</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Non-Railway Wards</td>
+                        <td>
+                            <ul>
+                                <li>Admissions for Non-Railway students shall be considered only against vacant seats remaining after accommodating eligible Railway wards.</li>
+                                <li>Preference to Railway wards is a common policy followed in Railway schools.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+
     <section class="admission-2 py-5">
         <div class="container">
-            <span class="badge" data-aos="fade-up">Admission Information</span>
-            <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">Everything About School Admission</h2>
             <div class="row mt-4">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <h5>Eligibility Criteria</h5>
+                    <h5>Admission of Railway Wards</h5>
+                    <p class="section-desc">The parent/guardian shall submit the prescribed application form along with:</p>
                     <ul class="icon-list mt-4">
-                        <li class="list"><i class="bi bi-person-check-fill"></i>Students must satisfy the age requirements prescribed for the respective class.</li>
-                        <li class="list"><i class="bi bi-person-check-fill"></i>Admission is subject to meeting the academic eligibility criteria of the school.</li>
-                        <li class="list"><i class="bi bi-person-check-fill"></i>Previous academic records may be required for admission consideration.</li>
-                        <li class="list"><i class="bi bi-person-check-fill"></i>Applicants must submit all necessary supporting documents during admission.</li>
-                        <li class="list"><i class="bi bi-person-check-fill"></i>Admissions are granted based on eligibility verification and seat availability.</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Service Certificate issued by the Railway Administration (for serving employees)</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>PPO/Retirement document (for retired employees).</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Proof of relationship with the Railway employee</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Birth Certificate of the student.</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Aadhaar Card of the student.</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Passport-size photographs.</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Previous year's Report Card/Mark Sheet.</li>
+                        <li class="list"><i class="bi bi-person-check-fill"></i>Transfer Certificate (where applicable).</li>
                     </ul>
+                    <p class="section-desc">Admission will be granted subject to verification of documents and availability of
+seats.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
-                    <h5>Documents Required</h5>
+                    <h5>Admission of Non - Railway Wards</h5>
+                    <p class="section-desc">Non-Railway students may apply for admission in classes where vacancies exist
+after admission of Railway wards.</p>
+                    <p class="section-desc">The following documents shall be submitted:
+</p>
                     <ul class="icon-list mt-4">
-                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Students must satisfy the age requirements prescribed for the respective class.</li>
-                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Admission is subject to meeting the academic eligibility criteria of the school.</li>
-                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Previous academic records may be required for admission consideration.</li>
-                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Applicants must submit all necessary supporting documents during admission.</li>
-                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Admissions are granted based on eligibility verification and seat availability.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Birth Certificate</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Aadhaar Card of the student.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Aadhaar Card of Parent/Guardian.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Passport-size photographs.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Address Proof.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Previous year's Report Card/Mark Sheet.</li>
+                        <li class="list"><i class="bi bi-file-earmark-text-fill"></i>Transfer Certificate (where applicable).</li>
                     </ul>
+                    <p class="section-desc">Applications of Non-Railway students shall be considered strictly on merit, eligibility
+and availability of vacancies</p>
                 </div>
             </div>
         </div>
@@ -76,10 +122,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <span class="badge">Fee Guidelines</span>
-                    <h1 class="section-title text-white">Understanding School Fee Policies</h1>
-                    <p class="section-desc text-white">The school follows a structured, transparent, and student-focused fee policy in accordance with institutional guidelines and educational standards. The fee structure is designed to support the smooth functioning of academic programmes, infrastructure maintenance, student welfare initiatives, and various educational activities. Parents are encouraged to familiarize themselves with the prescribed fee schedule and ensure timely payment of all applicable fees. The institution strives to maintain clarity and fairness in all fee-related procedures while providing a supportive environment for students and families.</p>
-                    <p class="section-desc text-white">Timely payment of fees plays an important role in ensuring uninterrupted academic activities, access to student services, and participation in school programmes throughout the academic year. Parents are requested to adhere to the scheduled payment timelines to avoid inconvenience and support the efficient administration of educational services. The school remains committed to providing quality education, modern learning resources, and a positive learning environment while maintaining transparency and accountability in its financial practices.</p>
+                    <h1 class="section-title text-white">Age Requirements</h1>
+                    <p class="section-desc text-white">Admission to various classes at Railway Higher Secondary School is governed by the age criteria prescribed by the Central Board of Secondary Education (CBSE) and the Government of Tamil Nadu from time to time. Parents seeking admission for their children must ensure that the student satisfies the required age eligibility for the respective class at the time of admission. The school strictly follows the prescribed guidelines to maintain transparency, fairness, and compliance with educational regulations, ensuring a systematic and standardized admission process for all applicants.</p>
+                    <h1 class="section-title text-white">Transfer Cases</h1>
+                    <p class="section-desc text-white">Students seeking admission from other CBSE or State Board schools are required to submit the necessary documents to complete the admission process. These include the original Transfer Certificate, previous Report Card or Mark Sheet, Migration Certificate wherever applicable, and Aadhaar Card along with supporting documents. The submission of these records helps the school verify academic eligibility, ensure compliance with admission regulations, and facilitate a smooth transition for students joining the institution from other recognized schools.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <img src="Assets/Images/fees.webp" alt="" class="img-fluid">
@@ -87,19 +133,27 @@
             </div>
         </div>
     </section>
-    <section class="admission-4 py-5">
+     <section class="about-3">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <img src="Assets/Images/parent.webp" alt="" class="img-fluid">
+            <div class="heading-center">
+                <span class="badge">Admission Policies</span>
+            <h2 class="section-title text-center">Admission Approval and Rights</h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="icon-box">
+                        <h4 class="icon-box-title">School's Right</h4>
+                        <p class="icon-box-desc">The school reserves the right to approve or reject admission applications without assigning any reason. The decision of the school administration shall be final and binding in all admission matters.</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
-                    <span class="badge">Parent Interaction Process</span>
-                    <h2 class="section-title">Strengthening Parent Partnerships</h2>
-                    <p class="section-desc">The institution strongly believes that the active involvement of parents plays a vital role in the academic, emotional, and personal development of students. Railway Higher Secondary School encourages a collaborative relationship between parents and educators to create a supportive learning environment that nurtures student success. Regular parent-teacher interactions provide valuable opportunities to discuss academic performance, classroom participation, behavior, attendance, and overall progress. These meetings help establish open communication and enable both parents and teachers to work together in identifying strengths and addressing areas that require additional support.</p>
-                    <p class="section-desc">The school also organizes communication sessions, counseling interactions, and academic review meetings to keep parents informed about important developments in their child's educational journey. Through continuous engagement and mutual cooperation, the institution ensures that students receive consistent guidance both at school and at home. This strong partnership promotes discipline, confidence, responsibility, and overall well-being while helping students achieve their full potential in academics and personal growth.</p>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="icon-box">
+                        <h4 class="icon-box-title">Final Approval</h4>
+                        <p class="icon-box-desc">Submission of an application does not guarantee admission. Admission becomes final only after document verification, approval by the competent authority, and payment of the prescribed fees as per school guidelines.</p>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
    

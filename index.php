@@ -135,6 +135,23 @@
     </div>
    </section>
 
+   <section class="curriculam-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge">National Leadership</span>
+                    <h2 class="section-title">Guiding Indian Railways Forward</h2>
+                    <p class="section-desc">Railway Higher Secondary School, Madurai, takes pride in being associated with the rich legacy and national service of Indian Railways. The Ministry of Railways plays a vital role in strengthening the country's transportation network while contributing significantly to education, social development, and employee welfare. Under the leadership and vision of the Railway Minister, Indian Railways continues to promote modernization, innovation, safety, and inclusive growth across the nation.</p>
+                    <p class="section-desc">The Railway Minister provides strategic direction for the development of railway infrastructure, passenger services, technological advancement, and welfare initiatives. Along with improving transportation services, the Ministry also supports educational institutions established for the benefit of railway employees and their families. Railway schools across the country have become centers of quality education, discipline, and value-based learning.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets/Images/minister.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
    <section class="home-4 py-5">
     <div class="container">
         <div class="heading-center">
