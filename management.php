@@ -61,10 +61,11 @@
     <<section class="home-7-new py-5">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">Leadership Team</span>
+            <span class="badge">Leadership Madurai Division Team</span>
             <h2 class="section-title">Guiding the Institution Forward</h2>
         </div>
-        <div class="row mt-4">
+        
+        <div class="row mt-4 d-flex justify-content-center">
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <div class="card">
                         <div class="card-image">
@@ -76,8 +77,24 @@
                         </div>
                         
                     </div>
+                    
                 </div>
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/adrm.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Shri. Prasanna V</h3>
+                            <span class="badge">Addl. Divisional Railway Manager,<br>Madurai Division</span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <div class="card">
                         <div class="card-image">
                             <img src="Assets/Images/correspondent.webp" alt="" class="img-fluid">
@@ -89,7 +106,7 @@
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="150">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
                     <div class="card">
                         <div class="card-image">
                             <img src="Assets/Images/principal.webp" alt="" class="img-fluid">
@@ -101,21 +118,7 @@
                         
                     </div>
                 </div>
-            </div>
-        <div class="row mt-4 d-flex justify-content-center">
-                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="Assets/Images/adrm.webp" alt="" class="img-fluid">
-                        </div>
-                        <div class="card-content heading-center">
-                            <h3 class="name">Shri. Prasanna V</h3>
-                            <span class="badge">Addl. Divisional Railway Manager,<br>Madurai Division</span>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="150">
                     <div class="card">
                         <div class="card-image">
                             <img src="Assets/Images/apo.webp" alt="" class="img-fluid">

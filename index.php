@@ -23,38 +23,39 @@
 <body class="home">
     <?=template_header()?>
 
-    <section class="announcement">
-    <div class="announcement-bar">
-        <div class="announcement-track">
-            <a href="admission.php">Admission Procedure</a>
-            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
-            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+    <section class="hero-section">
+    <!-- Left: Background Video -->
+    <div class="hero-video-wrap">
+        <video autoplay muted loop playsinline class="hero-video" poster="Assets/Images/hero-banner.webp">
+            <source src="Assets/Video/railway-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+    </div>
 
-            <a href="admission.php">Admission Procedure</a>
-            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
-            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
-        </div>
-
-        <div class="announcement-track">
-            <a href="admission.php">Admission Procedure</a>
-            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
-            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
-
-            <a href="admission.php">Admission Procedure</a>
-            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
-            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+    <!-- Right: Vertical Announcement Bar (tablet+) -->
+    <div class="hero-announce-bar">
+        <div class="hero-announce-label">📢 Notice</div>
+        <div class="hero-announce-track-wrap">
+            <div class="hero-announce-track">
+                <a href="#">Online Payment</a>
+                <a href="#">School Fees</a>
+                <a href="#">रेल मंत्रालय / Ministry of Railways</a>
+                <a href="#">दक्षिणी रेलवे / Southern Railway</a>
+            </div>
         </div>
     </div>
 </section>
 
-    <section class="hero-section">
-        <!-- Background Video -->
-        <video autoplay muted loop playsinline class="hero-video" poster="Assets/Images/hero-banner.webp">
-            <source src="Assets/Video/railway-video.mp4" type="video/mp4">
-        </video>
-        <!-- Overlay -->
-        <div class="hero-overlay"></div>
-    </section>
+<!-- Mobile-only announcement bar (below hero) -->
+<div class="mobile-announce-bar">
+    <div class="mobile-announce-label">📢 Notice</div>
+    <div class="mobile-announce-links">
+        <a href="#">Online Payment</a>
+        <a href="#">School Fees</a>
+        <a href="#">रेल मंत्रालय / Ministry of Railways</a>
+        <a href="#">दक्षिणी रेलवे / Southern Railway</a>
+    </div>
+</div>
     
 
    <section class="home-2 py-5">
