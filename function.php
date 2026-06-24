@@ -190,7 +190,7 @@ function template_footer(){
                     </div>
                 </div>
                 <div class="bottom-footer">
-                    <p class="copyrights">&copy; 2026, Railway Higher Secondary School (CBSE), All rights reserved.</p>
+                    <p class="copyrights">&copy; 2026, Railway Higher Secondary School (CBSE), Madurai, All rights reserved.</p>
                 </div>
             </div>
     </footer>

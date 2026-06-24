@@ -201,12 +201,6 @@
             </div>
 
             <p class="section-desc mt-4">All members are requested to extend their full cooperation to the newly constituted PTA for the effective functioning and development of the school.</p>
-            <div class="signboard">
-                <h5>(Smt. A. Anjammal)</h5>
-                <p class="section-desc">Principal & President, PTA<br>
-RHSS (CBSE), Madurai
-</p>
-            </div>
         </div>
     </section>
     
