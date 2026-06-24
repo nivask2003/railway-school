@@ -23,6 +23,30 @@
 <body class="home">
     <?=template_header()?>
 
+    <section class="announcement">
+    <div class="announcement-bar">
+        <div class="announcement-track">
+            <a href="admission.php">Admission Procedure</a>
+            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
+            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+
+            <a href="admission.php">Admission Procedure</a>
+            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
+            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+        </div>
+
+        <div class="announcement-track">
+            <a href="admission.php">Admission Procedure</a>
+            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
+            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+
+            <a href="admission.php">Admission Procedure</a>
+            <a href="https://onlinesbi.sbi.bank.in/sbicollect/icollecthome.htm?corpID=7019535">Online Payment</a>
+            <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+        </div>
+    </div>
+</section>
+
     <section class="hero-section">
         <!-- Background Video -->
         <video autoplay muted loop playsinline class="hero-video" poster="Assets/Images/hero-banner.webp">
@@ -238,7 +262,7 @@
     <div class="container">
         <div class="heading-center">
             <span class="badge">Leadership Team</span>
-            <h2 class="section-title">Guiding the Institution Forward</h2>
+            <h2 class="section-title text-center">Guiding the Institution Forward</h2>
         </div>
         <div class="row mt-4">
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
@@ -247,7 +271,7 @@
                             <img src="Assets/Images/admin.webp" alt="" class="img-fluid">
                         </div>
                         <div class="card-content heading-center">
-                            <h3 class="name">Mr. S. Kumar</h3>
+                            <h3 class="name">Shri. Om Praksah MEENA</h3>
                             <span class="badge">Hon. Divisional Railway Manager</span>
                         </div>
                         
@@ -259,7 +283,7 @@
                             <img src="Assets/Images/correspondent.webp" alt="" class="img-fluid">
                         </div>
                         <div class="card-content heading-center">
-                            <h3 class="name">Name Unknown</h3>
+                            <h3 class="name">Shri. T. Sankaran</h3>
                             <span class="badge">Hon. Divisional Personnel Officer<br>& Correspondent</span>
                         </div>
                         

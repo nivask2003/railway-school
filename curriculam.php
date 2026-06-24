@@ -103,6 +103,78 @@
             </div>
         </div>
     </section>
+    <section class="curriculam-3 py-5">
+        <div class="container">
+            <div class="heading-center">
+                <span class="badge">Subjects Offered</span>
+                <h2 class="section-title text-center">Wide Range of Subjects Offered</h2>
+            </div>
+             <table class="table">
+                <thead>
+                    <tr>
+                        <th>Classes / Stream</th>
+                        <th>Subjects Offered</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Primary, Middle & Secondary School<br>
+                            (Grade I to X)
+                        </td>
+                        <td>
+                            <ul>
+                                <li>First Language – English</li>
+                                <li>Second Language – Tamil / Hindi</li>
+                                <li>Third Language – Tamil / Hindi</li>
+                                <li>Mathematics</li>
+                                <li>Science</li>
+                                <li>Social Science</li>
+                                <li>Computer Science</li>
+                                <li>General Knowledge</li>
+                                <li>Art Education</li>
+                                <li>Physical Education</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Senior Secondary<br>
+                            (Science Stream)
+                        </td>
+                        <td>
+                            <ul>
+                                <li>English</li>
+                                <li>Physics</li>
+                                <li>Chemistry</li>
+                                <li>Mathematics</li>
+                                <li>Biology / Computer Science</li>
+                                <li>Optional – Tamil / Hindi</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Senior Secondary<br>
+                            (Commerce Stream)
+                        </td>
+                        <td>
+                            <ul>
+                                <li>English</li>
+                                <li>Accountancy</li>
+                                <li>Business Studies</li>
+                                <li>Economics</li>
+                                <li>Computer Applications</li>
+                                <li>Optional – Tamil / Hindi</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
    
     
     <?=template_footer()?>

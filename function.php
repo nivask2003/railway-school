@@ -52,10 +52,8 @@ function template_header(){
                                     <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
                                         <li><a class="dropdown-item" href="about.php">About Us</a></li>
                                         <li><a class="dropdown-item" href="management.php">School Management</a></li>
-                                        <li><a class="dropdown-item" href="administrative-officer.php">Administrative Officer's Message</a></li>
                                         <li><a class="dropdown-item" href="correspondent.php">Correspondent's Message</a></li>
                                         <li><a class="dropdown-item" href="principal-message.php">Principal's Message</a></li>
-                                        <li><a class="dropdown-item" href="academic-coordinator.php">Academic Coordinator's Message</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">

@@ -30,10 +30,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <span class="badge">Management Desk</span>
-                    <h2 class="section-title">Leadership Rooted in Excellence</h2>
-                    <p class="section-desc">The management of Railway Higher Secondary School, Madurai, has played a significant role in preserving the institution’s rich heritage and upholding its long-standing tradition of educational excellence. Through dedicated leadership and strategic planning, the management continuously supports academic progress, infrastructure enhancement, faculty development, and student welfare initiatives that contribute to the overall growth of the institution. Their commitment ensures a nurturing environment where students receive quality education and opportunities for holistic development.</p>
-                    <p class="section-desc">Guided by a vision centered on discipline, service, integrity, and excellence, the management strives to create a strong foundation for future generations. By promoting high educational standards, supporting innovation, and encouraging value-based learning, the institution continues to empower students with the knowledge, skills, and confidence needed to achieve success. These efforts help shape responsible citizens and future leaders who contribute positively to society and the nation.</p>
+                    <span class="badge">Headquarters</span>
+                    <h2 class="section-title">The Heart of Our Institution</h2>
+                    <ul class="icon-list">
+                        <li class="list">
+                            <h4 class="name">Shri. A NARAYANAN, IRPS.,</h4>
+                            <p class="position">Principal Chief Personnel Officer/Southern Railway, Chennai.</p>
+                        </li>
+                        <li class="list">
+                            <h4 class="name">Smt. SHIKHA LAL., IRPS.,</h4>
+                            <p class="position">Chief Personnel Officer/IR/Southern Railway, Chennai.</p>
+                        </li>
+                        <li class="list">
+                            <h4 class="name">Smt. PRAKASH M,</h4>
+                            <p class="position">Deputy Chief Personnel Officer/R&W/Southern Railway, Chennai.</p>
+                        </li>
+                        <li class="list">
+                            <h4 class="name">Smt. JAYANTHI S,</h4>
+                            <p class="position">Assistant Personnel Officer/Welfare/Southern Railway, Chennai.</p>
+                        </li>
+                    </ul>
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <img src="Assets/Images/management.webp" alt="" class="img-fluid">
@@ -41,21 +58,78 @@
             </div>
         </div>
     </section>
-    <section class="manage-2 py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <img src="Assets/Images/management-2.webp" alt="" class="img-fluid">
+    <<section class="home-7-new py-5">
+    <div class="container">
+        <div class="heading-center">
+            <span class="badge">Leadership Team</span>
+            <h2 class="section-title">Guiding the Institution Forward</h2>
+        </div>
+        <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/admin.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Shri. Om Praksah M</h3>
+                            <span class="badge">Hon. Divisional Railway Manager</span>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <span class="badge">Faculty Excellence</span>
-                    <h2 class="section-title">Dedicated Educators, Lasting Impact</h2>
-                    <p class="section-desc">The faculty members of Railway Higher Secondary School, Madurai, are dedicated to delivering quality education through professionalism, commitment, and student-centered learning practices. With a strong focus on academic excellence and personal development, teachers guide, support, and inspire students to achieve their goals while building confidence, discipline, and strong values. Their dedication creates a positive and encouraging learning environment that nurtures growth and success.</p>
-                    <p class="section-desc">Through innovative teaching methodologies, continuous mentoring, and personalized attention, the faculty encourages curiosity, creativity, and lifelong learning among students. By fostering critical thinking, character development, and holistic growth, they uphold the institution’s proud tradition of educational excellence and help prepare students to become responsible citizens and future leaders.</p>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/correspondent.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Shri. T. Sankaran</h3>
+                            <span class="badge">Hon. Divisional Personnel Officer<br>& Correspondent</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="150">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/principal.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">A. Anjammal</h3>
+                            <span class="badge">Principal</span>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/adrm.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Shri. Prasanna V</h3>
+                            <span class="badge">Addl. Divisional Railway Manager,<br>Madurai Division</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Assets/Images/apo.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-content heading-center">
+                            <h3 class="name">Shri. Esakki M</h3>
+                            <span class="badge">Asst. Personnel Officer<br>/T/Madurai Division</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+   </section>
    
 
     <?=template_footer()?>

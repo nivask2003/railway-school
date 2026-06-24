@@ -34,7 +34,7 @@
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <img src="Assets/Images/correspondent.webp" alt="Dr. R. Rajalakshmi – Principal" class="img-fluid">
                     <div class="heading-center">
-                        <h4 class="section-title">Name Unknown</h4>
+                        <h4 class="section-title">Shri. T. Sankaran</h4>
                         <span class="badge">Hon. Divisional Personnel Officer<br>& Correspondent</span>
                     </div>
                 </div>
