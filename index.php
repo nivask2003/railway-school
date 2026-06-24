@@ -37,10 +37,11 @@
         <div class="hero-announce-label">📢 Notice</div>
         <div class="hero-announce-track-wrap">
             <div class="hero-announce-track">
-                <a href="#">Online Payment</a>
-                <a href="#">School Fees</a>
-                <a href="#">रेल मंत्रालय / Ministry of Railways</a>
-                <a href="#">दक्षिणी रेलवे / Southern Railway</a>
+                <a href="https://onlinesbi.sbi.bank.in/sbicollect/payment/filemodeforonecategory.htm">Online Payment</a>
+                <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+                <a href="https://indianrailways.gov.in/railwayboard/">रेल मंत्रालय / Ministry of Railways</a>
+                <a href="https://sr.indianrailways.gov.in/index.jsp?lang=0">दक्षिणी रेलवे / Southern Railway</a>
+                <a href="Assets\PDF\pta.pdf">PTA Fee Structure</a>
             </div>
         </div>
     </div>
@@ -50,10 +51,11 @@
 <div class="mobile-announce-bar">
     <div class="mobile-announce-label">📢 Notice</div>
     <div class="mobile-announce-links">
-        <a href="#">Online Payment</a>
-        <a href="#">School Fees</a>
-        <a href="#">रेल मंत्रालय / Ministry of Railways</a>
-        <a href="#">दक्षिणी रेलवे / Southern Railway</a>
+        <a href="https://onlinesbi.sbi.bank.in/sbicollect/payment/filemodeforonecategory.htm">Online Payment</a>
+        <a href="Assets\PDF\School Fee 2026-27.pdf">School Fees</a>
+        <a href="https://indianrailways.gov.in/railwayboard/">रेल मंत्रालय / Ministry of Railways</a>
+        <a href="https://sr.indianrailways.gov.in/index.jsp?lang=0">दक्षिणी रेलवे / Southern Railway</a>
+        <a href="Assets\PDF\pta.pdf">PTA Fee Structure</a>
     </div>
 </div>
     

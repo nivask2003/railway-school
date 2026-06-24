@@ -27,6 +27,22 @@
     </section>
     <section class="gallery py-5" data-aos="fade-right">
         <div class="container">
+            <h2 class="section-title text-center">Best School Award</h2>
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/best.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/best.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery py-5" data-aos="fade-right">
+        <div class="container">
             <h2 class="section-title text-center">Vande Mataram Ceremony</h2>
             <div class="row mt-4">
                 <div class="col-12 col-md-4 col-lg-4 gallery-img">
@@ -332,6 +348,128 @@
                     <img src="Assets/Images/gallery-30.webp" alt="" class="img-fluid">
                     <div class="overlay">
                         <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-30.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery py-5" data-aos="fade-left">
+        <div class="container">
+            <h2 class="section-title text-center">School Infrastructure</h2>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-31.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-31.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-32.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-32.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-33.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-33.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery py-5" data-aos="fade-right">
+        <div class="container">
+            <h2 class="section-title text-center">School Team</h2>
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-34.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-34.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-35.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-35.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery py-5" data-aos="fade-left">
+        <div class="container">
+            <h2 class="section-title text-center">Sports</h2>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-36.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-36.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-37.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-37.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-38.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-38.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-39.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-39.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-40.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-40.webp')">
+                            <i class="bi bi-plus"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 gallery-img">
+                    <img src="Assets/Images/gallery-41.webp" alt="" class="img-fluid">
+                    <div class="overlay">
+                        <div class="icon-circle" data-bs-toggle = "modal" data-bs-target = "#galleryModal" onclick = "showImage('Assets/Images/gallery-41.webp')">
                             <i class="bi bi-plus"></i>
                         </div>
                         
